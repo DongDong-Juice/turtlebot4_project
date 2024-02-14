@@ -68,7 +68,7 @@ class turtlebot4_pub_path(BasicNavigator):
         print(msg)
 
     def open_path_file(self):
-        with open('/home/dong/turtlebot4-ws/src/turtlebot4_path_planning/path/path.json','r') as f:
+        with open('/home/dong/turtlebot4_project/turtlebot4-ws/src/turtlebot4_path_planning/path/path.json','r') as f:
             data = json.load(f)
             # index = self.data[0]['index']
         self.path_plan_data(data)

@@ -1,1 +1,1 @@
-prepend-non-duplicate;PYTHONPATH;/home/dong/turtlebot4-ws/build/turtlebot4_path_planning
+prepend-non-duplicate;PYTHONPATH;/home/dong/turtlebot4_project/turtlebot4-ws/build/turtlebot4_path_planning
