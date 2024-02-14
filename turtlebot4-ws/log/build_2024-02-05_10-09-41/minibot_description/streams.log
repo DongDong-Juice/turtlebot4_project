@@ -1,0 +1,69 @@
+[0.387s] Invoking command in '/home/dong/turtlebot4-ws/build/minibot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4-ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4-ws/install/teleop_twist_keyboard:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake /home/dong/turtlebot4-ws/src/pinklab_minibot_robot/minibot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dong/turtlebot4-ws/install/minibot_description
+[0.894s] -- The C compiler identification is GNU 11.4.0
+[0.895s] -- The CXX compiler identification is GNU 11.4.0
+[0.896s] -- Detecting C compiler ABI info
+[0.896s] -- Detecting C compiler ABI info - done
+[0.896s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.897s] -- Detecting C compile features
+[0.897s] -- Detecting C compile features - done
+[0.897s] -- Detecting CXX compiler ABI info
+[0.898s] -- Detecting CXX compiler ABI info - done
+[0.898s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.898s] -- Detecting CXX compile features
+[0.898s] -- Detecting CXX compile features - done
+[0.898s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.307s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.378s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.413s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[1.415s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.541s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.545s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.546s] -- Added test 'lint_cmake' to check CMake code style
+[1.546s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.548s] -- Added test 'xmllint' to check XML markup files
+[1.555s] -- Configuring done
+[1.559s] -- Generating done
+[1.560s] -- Build files have been written to: /home/dong/turtlebot4-ws/build/minibot_description
+[1.567s] Invoked command in '/home/dong/turtlebot4-ws/build/minibot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4-ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4-ws/install/teleop_twist_keyboard:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake /home/dong/turtlebot4-ws/src/pinklab_minibot_robot/minibot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dong/turtlebot4-ws/install/minibot_description
+[1.568s] Invoking command in '/home/dong/turtlebot4-ws/build/minibot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4-ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4-ws/install/teleop_twist_keyboard:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4-ws/build/minibot_description -- -j8 -l8
+[1.609s] Invoked command in '/home/dong/turtlebot4-ws/build/minibot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4-ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4-ws/install/teleop_twist_keyboard:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4-ws/build/minibot_description -- -j8 -l8
+[1.646s] Invoking command in '/home/dong/turtlebot4-ws/build/minibot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4-ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4-ws/install/teleop_twist_keyboard:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4-ws/build/minibot_description
+[1.655s] -- Install configuration: ""
+[1.655s] -- Execute custom install script
+[1.656s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/launch/upload_robot.launch.py
+[1.670s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/launch/view_robot.launch.py
+[1.682s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/meshes/collision/base_link.stl
+[1.696s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/meshes/collision/front_camera.stl
+[1.714s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/meshes/collision/ul_sensor.stl
+[1.730s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/meshes/collision/wheel.stl
+[1.742s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/meshes/collision/ydlidar_x2_assy.stl
+[1.755s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/meshes/visual/base_link.dae
+[1.767s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/meshes/visual/front_camera.dae
+[1.779s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/meshes/visual/front_camera.png
+[1.791s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/meshes/visual/ul_sensor.dae
+[1.802s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/meshes/visual/wheel.dae
+[1.814s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/meshes/visual/wheel.png
+[1.827s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/meshes/visual/ydlidar_x2.png
+[1.842s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/meshes/visual/ydlidar_x2_assy.dae
+[1.854s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/rviz/view_robot.rviz
+[1.865s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/urdf/common/inertia_macro.urdf.xacro
+[1.877s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/urdf/minibot.urdf.xacro
+[1.888s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/urdf/minibot_gazebo.urdf.xacro
+[1.899s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/urdf/minibot_ros2_control.urdf.xacro
+[1.911s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/urdf/robot.urdf.xacro
+[1.924s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/ament_index/resource_index/package_run_dependencies/minibot_description
+[1.935s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/ament_index/resource_index/parent_prefix_path/minibot_description
+[1.947s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/environment/ament_prefix_path.sh
+[1.961s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/environment/ament_prefix_path.dsv
+[1.975s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/environment/path.sh
+[1.988s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/environment/path.dsv
+[1.998s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/local_setup.bash
+[2.011s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/local_setup.sh
+[2.023s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/local_setup.zsh
+[2.035s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/local_setup.dsv
+[2.047s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/package.dsv
+[2.061s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/ament_index/resource_index/packages/minibot_description
+[2.072s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/cmake/minibot_descriptionConfig.cmake
+[2.085s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/cmake/minibot_descriptionConfig-version.cmake
+[2.094s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_description/share/minibot_description/package.xml
+[2.116s] Invoked command in '/home/dong/turtlebot4-ws/build/minibot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4-ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4-ws/install/teleop_twist_keyboard:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4-ws/build/minibot_description

@@ -1,0 +1,87 @@
+[0.275s] Invoking command in '/home/dong/turtlebot4_ws/build/minibot_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake /home/dong/turtlebot4_ws/src/pinklab_minibot_robot/minibot_hardware_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dong/turtlebot4_ws/install/minibot_hardware_interface
+[0.777s] -- The C compiler identification is GNU 11.4.0
+[0.777s] -- The CXX compiler identification is GNU 11.4.0
+[0.777s] -- Detecting C compiler ABI info
+[0.777s] -- Detecting C compiler ABI info - done
+[0.777s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.777s] -- Detecting C compile features
+[0.777s] -- Detecting C compile features - done
+[0.777s] -- Detecting CXX compiler ABI info
+[0.777s] -- Detecting CXX compiler ABI info - done
+[0.777s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.778s] -- Detecting CXX compile features
+[0.778s] -- Detecting CXX compile features - done
+[0.778s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.121s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.207s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.246s] -- Found hardware_interface: 2.37.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.293s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.298s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.308s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.323s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.345s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.280s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.284s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.324s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.386s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.388s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.401s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.410s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.418s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.429s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.443s] -- Looking for pthread.h
+[2.497s] -- Looking for pthread.h - found
+[2.497s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.559s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.560s] -- Found Threads: TRUE  
+[2.722s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.723s] -- Checking for module 'libserial'
+[2.737s] --   Found libserial, version 1.0.0
+[2.815s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.927s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.928s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.929s] -- Configured cppcheck include dirs: /home/dong/turtlebot4_ws/src/pinklab_minibot_robot/minibot_hardware_interface/include
+[2.929s] -- Configured cppcheck exclude dirs and/or files: 
+[2.930s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.930s] -- Configured cpplint exclude dirs and/or files: 
+[2.932s] -- Added test 'lint_cmake' to check CMake code style
+[2.933s] -- Added test 'uncrustify' to check C / C++ code style
+[2.933s] -- Configured uncrustify additional arguments: 
+[2.934s] -- Added test 'xmllint' to check XML markup files
+[2.937s] -- Configuring done
+[2.984s] -- Generating done
+[2.987s] -- Build files have been written to: /home/dong/turtlebot4_ws/build/minibot_hardware_interface
+[3.001s] Invoked command in '/home/dong/turtlebot4_ws/build/minibot_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake /home/dong/turtlebot4_ws/src/pinklab_minibot_robot/minibot_hardware_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dong/turtlebot4_ws/install/minibot_hardware_interface
+[3.003s] Invoking command in '/home/dong/turtlebot4_ws/build/minibot_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/minibot_hardware_interface -- -j8 -l8
+[3.076s] [ 50%] [32mBuilding CXX object CMakeFiles/minibot_hardware_interface.dir/src/minibot_system.cpp.o[0m
+[6.582s] [100%] [32m[1mLinking CXX shared library libminibot_hardware_interface.so[0m
+[6.714s] [100%] Built target minibot_hardware_interface
+[6.722s] Invoked command in '/home/dong/turtlebot4_ws/build/minibot_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/minibot_hardware_interface -- -j8 -l8
+[6.741s] Invoking command in '/home/dong/turtlebot4_ws/build/minibot_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4_ws/build/minibot_hardware_interface
+[6.746s] -- Install configuration: ""
+[6.746s] -- Execute custom install script
+[6.746s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface//minibot_hardware.xml
+[6.753s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_hardware_interface/lib/libminibot_hardware_interface.so
+[6.759s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_hardware_interface/include/minibot_hardware_interface/minibot_system.hpp
+[6.765s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/environment/library_path.sh
+[6.771s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/environment/library_path.dsv
+[6.777s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/ament_index/resource_index/package_run_dependencies/minibot_hardware_interface
+[6.784s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/ament_index/resource_index/parent_prefix_path/minibot_hardware_interface
+[6.790s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/environment/ament_prefix_path.sh
+[6.796s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/environment/ament_prefix_path.dsv
+[6.802s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/environment/path.sh
+[6.808s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/environment/path.dsv
+[6.815s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/local_setup.bash
+[6.821s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/local_setup.sh
+[6.827s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/local_setup.zsh
+[6.833s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/local_setup.dsv
+[6.840s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/package.dsv
+[6.846s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/ament_index/resource_index/packages/minibot_hardware_interface
+[6.853s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/minibot_hardware_interface
+[6.860s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.867s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[6.874s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.880s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/cmake/minibot_hardware_interfaceConfig.cmake
+[6.886s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/cmake/minibot_hardware_interfaceConfig-version.cmake
+[6.892s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/package.xml
+[6.900s] Invoked command in '/home/dong/turtlebot4_ws/build/minibot_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4_ws/build/minibot_hardware_interface

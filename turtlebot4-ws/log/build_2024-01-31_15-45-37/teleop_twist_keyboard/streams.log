@@ -1,0 +1,65 @@
+[1.003s] Invoking command in '/home/dong/turtlebot4_ws/build/teleop_twist_keyboard': PYTHONPATH=/home/dong/turtlebot4_ws/build/teleop_twist_keyboard/prefix_override:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/dong/turtlebot4_ws/build/teleop_twist_keyboard/build
+[1.245s] running develop
+[1.246s] /home/dong/.local/lib/python3.10/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.246s] !!
+[1.246s] 
+[1.246s]         ********************************************************************************
+[1.246s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.246s]         Instead, use pypa/build, pypa/installer or other
+[1.246s]         standards-based tools.
+[1.246s] 
+[1.246s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.246s]         ********************************************************************************
+[1.246s] 
+[1.246s] !!
+[1.246s]   easy_install.initialize_options(self)
+[1.271s] /home/dong/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.271s] !!
+[1.271s] 
+[1.271s]         ********************************************************************************
+[1.272s]         Please avoid running ``setup.py`` directly.
+[1.272s]         Instead, use pypa/build, pypa/installer or other
+[1.272s]         standards-based tools.
+[1.272s] 
+[1.272s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.272s]         ********************************************************************************
+[1.272s] 
+[1.272s] !!
+[1.272s]   self.initialize_options()
+[1.418s] Removing /home/dong/turtlebot4_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard.egg-link (link to .)
+[1.444s] Invoked command in '/home/dong/turtlebot4_ws/build/teleop_twist_keyboard' returned '0': PYTHONPATH=/home/dong/turtlebot4_ws/build/teleop_twist_keyboard/prefix_override:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/dong/turtlebot4_ws/build/teleop_twist_keyboard/build
+[1.445s] Invoking command in '/home/dong/turtlebot4_ws/src/ros2_teleop_keyboard': PYTHONPATH=/home/dong/turtlebot4_ws/build/teleop_twist_keyboard/prefix_override:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/dong/turtlebot4_ws/build/teleop_twist_keyboard/build install --record /home/dong/turtlebot4_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed
+[1.604s] running egg_info
+[1.615s] writing ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO
+[1.616s] writing dependency_links to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt
+[1.616s] writing entry points to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt
+[1.616s] writing requirements to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt
+[1.616s] writing top-level names to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt
+[1.640s] reading manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[1.641s] writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[1.641s] running build
+[1.641s] running build_py
+[1.641s] copying teleop_twist_keyboard.py -> /home/dong/turtlebot4_ws/build/teleop_twist_keyboard/build/lib
+[1.641s] running install
+[1.641s] /home/dong/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.641s] !!
+[1.641s] 
+[1.641s]         ********************************************************************************
+[1.641s]         Please avoid running ``setup.py`` directly.
+[1.642s]         Instead, use pypa/build, pypa/installer or other
+[1.642s]         standards-based tools.
+[1.642s] 
+[1.642s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.642s]         ********************************************************************************
+[1.642s] 
+[1.642s] !!
+[1.642s]   self.initialize_options()
+[1.645s] running install_lib
+[1.657s] copying /home/dong/turtlebot4_ws/build/teleop_twist_keyboard/build/lib/teleop_twist_keyboard.py -> /home/dong/turtlebot4_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages
+[1.658s] byte-compiling /home/dong/turtlebot4_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard.py to teleop_twist_keyboard.cpython-310.pyc
+[1.658s] running install_egg_info
+[1.671s] Copying ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /home/dong/turtlebot4_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-0.0.0-py3.10.egg-info
+[1.672s] running install_scripts
+[1.781s] Installing teleop_twist_keyboard script to /home/dong/turtlebot4_ws/install/teleop_twist_keyboard/bin
+[1.782s] writing list of installed files to '/home/dong/turtlebot4_ws/build/teleop_twist_keyboard/install.log'
+[1.802s] Invoked command in '/home/dong/turtlebot4_ws/src/ros2_teleop_keyboard' returned '0': PYTHONPATH=/home/dong/turtlebot4_ws/build/teleop_twist_keyboard/prefix_override:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/dong/turtlebot4_ws/build/teleop_twist_keyboard/build install --record /home/dong/turtlebot4_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed

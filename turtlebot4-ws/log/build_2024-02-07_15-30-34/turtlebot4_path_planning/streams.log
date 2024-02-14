@@ -1,0 +1,50 @@
+[0.908s] Invoking command in '/home/dong/turtlebot4-ws/build/turtlebot4_path_planning': PYTHONPATH=/home/dong/turtlebot4-ws/build/turtlebot4_path_planning/prefix_override:/home/dong/turtlebot4-ws/install/turtlebot4_path_planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/dong/turtlebot4-ws/build/turtlebot4_path_planning/build --no-deps install_data
+[1.150s] running develop
+[1.151s] /home/dong/.local/lib/python3.10/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.151s] !!
+[1.151s] 
+[1.151s]         ********************************************************************************
+[1.151s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.151s]         Instead, use pypa/build, pypa/installer or other
+[1.151s]         standards-based tools.
+[1.151s] 
+[1.151s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.151s]         ********************************************************************************
+[1.151s] 
+[1.151s] !!
+[1.151s]   easy_install.initialize_options(self)
+[1.174s] /home/dong/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.174s] !!
+[1.174s] 
+[1.174s]         ********************************************************************************
+[1.174s]         Please avoid running ``setup.py`` directly.
+[1.174s]         Instead, use pypa/build, pypa/installer or other
+[1.174s]         standards-based tools.
+[1.174s] 
+[1.174s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.174s]         ********************************************************************************
+[1.174s] 
+[1.174s] !!
+[1.174s]   self.initialize_options()
+[1.311s] running egg_info
+[1.311s] creating turtlebot4_path_planning.egg-info
+[1.323s] writing turtlebot4_path_planning.egg-info/PKG-INFO
+[1.323s] writing dependency_links to turtlebot4_path_planning.egg-info/dependency_links.txt
+[1.323s] writing entry points to turtlebot4_path_planning.egg-info/entry_points.txt
+[1.323s] writing requirements to turtlebot4_path_planning.egg-info/requires.txt
+[1.323s] writing top-level names to turtlebot4_path_planning.egg-info/top_level.txt
+[1.323s] writing manifest file 'turtlebot4_path_planning.egg-info/SOURCES.txt'
+[1.347s] reading manifest file 'turtlebot4_path_planning.egg-info/SOURCES.txt'
+[1.348s] writing manifest file 'turtlebot4_path_planning.egg-info/SOURCES.txt'
+[1.360s] running build_ext
+[1.360s] Creating /home/dong/turtlebot4-ws/install/turtlebot4_path_planning/lib/python3.10/site-packages/turtlebot4_path_planning.egg-link (link to .)
+[1.361s] Installing turtlebot4_global_path script to /home/dong/turtlebot4-ws/install/turtlebot4_path_planning/lib/turtlebot4_path_planning
+[1.361s] 
+[1.361s] Installed /home/dong/turtlebot4-ws/build/turtlebot4_path_planning
+[1.361s] running install_data
+[1.361s] creating /home/dong/turtlebot4-ws/install/turtlebot4_path_planning/share/ament_index
+[1.361s] creating /home/dong/turtlebot4-ws/install/turtlebot4_path_planning/share/ament_index/resource_index
+[1.362s] creating /home/dong/turtlebot4-ws/install/turtlebot4_path_planning/share/ament_index/resource_index/packages
+[1.362s] copying resource/turtlebot4_path_planning -> /home/dong/turtlebot4-ws/install/turtlebot4_path_planning/share/ament_index/resource_index/packages
+[1.362s] copying package.xml -> /home/dong/turtlebot4-ws/install/turtlebot4_path_planning/share/turtlebot4_path_planning
+[1.395s] Invoked command in '/home/dong/turtlebot4-ws/build/turtlebot4_path_planning' returned '0': PYTHONPATH=/home/dong/turtlebot4-ws/build/turtlebot4_path_planning/prefix_override:/home/dong/turtlebot4-ws/install/turtlebot4_path_planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/dong/turtlebot4-ws/build/turtlebot4_path_planning/build --no-deps install_data

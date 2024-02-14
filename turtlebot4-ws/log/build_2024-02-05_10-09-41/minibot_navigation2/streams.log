@@ -1,0 +1,111 @@
+[0.241s] Invoking command in '/home/dong/turtlebot4-ws/build/minibot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4-ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4-ws/install/teleop_twist_keyboard:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake /home/dong/turtlebot4-ws/src/pinklab_minibot_robot/minibot_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dong/turtlebot4-ws/install/minibot_navigation2
+[0.751s] -- The C compiler identification is GNU 11.4.0
+[0.751s] -- The CXX compiler identification is GNU 11.4.0
+[0.751s] -- Detecting C compiler ABI info
+[0.751s] -- Detecting C compiler ABI info - done
+[0.751s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.752s] -- Detecting C compile features
+[0.752s] -- Detecting C compile features - done
+[0.753s] -- Detecting CXX compiler ABI info
+[0.753s] -- Detecting CXX compiler ABI info - done
+[0.753s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.753s] -- Detecting CXX compile features
+[0.753s] -- Detecting CXX compile features - done
+[0.753s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.119s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.221s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.269s] -- Found slam_toolbox: 2.6.8 (/opt/ros/humble/share/slam_toolbox/cmake)
+[1.330s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.339s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.353s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.375s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.409s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.261s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.268s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.459s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.494s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.553s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.568s] -- Looking for pthread.h
+[2.660s] -- Looking for pthread.h - found
+[2.660s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.742s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.743s] -- Found Threads: TRUE  
+[3.539s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.541s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.542s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.813s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[3.818s] -- Found OGRE
+[3.818s] --   static     : OFF
+[3.818s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[3.819s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.819s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[3.819s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[3.819s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[3.819s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.819s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[3.819s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.819s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.820s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.820s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.910s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[3.936s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[4.424s] -- Found X11: /usr/include   
+[4.425s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[4.531s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[4.531s] -- Looking for gethostbyname
+[4.605s] -- Looking for gethostbyname - found
+[4.605s] -- Looking for connect
+[4.668s] -- Looking for connect - found
+[4.668s] -- Looking for remove
+[4.740s] -- Looking for remove - found
+[4.740s] -- Looking for shmat
+[4.797s] -- Looking for shmat - found
+[4.797s] -- Looking for IceConnectionNumber in ICE
+[4.859s] -- Looking for IceConnectionNumber in ICE - found
+[4.862s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[4.862s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[4.964s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[5.556s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.664s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.665s] -- Added test 'lint_cmake' to check CMake code style
+[5.666s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.667s] -- Added test 'xmllint' to check XML markup files
+[5.669s] -- Configuring done
+[5.673s] -- Generating done
+[5.675s] -- Build files have been written to: /home/dong/turtlebot4-ws/build/minibot_navigation2
+[5.750s] Invoked command in '/home/dong/turtlebot4-ws/build/minibot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4-ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4-ws/install/teleop_twist_keyboard:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake /home/dong/turtlebot4-ws/src/pinklab_minibot_robot/minibot_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dong/turtlebot4-ws/install/minibot_navigation2
+[5.752s] Invoking command in '/home/dong/turtlebot4-ws/build/minibot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4-ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4-ws/install/teleop_twist_keyboard:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4-ws/build/minibot_navigation2 -- -j8 -l8
+[5.785s] Invoked command in '/home/dong/turtlebot4-ws/build/minibot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4-ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4-ws/install/teleop_twist_keyboard:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4-ws/build/minibot_navigation2 -- -j8 -l8
+[5.805s] Invoking command in '/home/dong/turtlebot4-ws/build/minibot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4-ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4-ws/install/teleop_twist_keyboard:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4-ws/build/minibot_navigation2
+[5.811s] -- Install configuration: ""
+[5.811s] -- Execute custom install script
+[5.811s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_navigation2/share/minibot_navigation2/config/mapper_params.yaml
+[5.818s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_navigation2/share/minibot_navigation2/launch/bringup_launch.py
+[5.825s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_navigation2/share/minibot_navigation2/launch/localization_launch.py
+[5.832s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_navigation2/share/minibot_navigation2/launch/map_building.launch.py
+[5.839s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_navigation2/share/minibot_navigation2/launch/navigation_launch.py
+[5.845s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_navigation2/share/minibot_navigation2/launch/rviz_launch.py
+[5.854s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_navigation2/share/minibot_navigation2/maps/.empty
+[5.860s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_navigation2/share/minibot_navigation2/maps/simple_building.pgm
+[5.868s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_navigation2/share/minibot_navigation2/maps/simple_building.yaml
+[5.875s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_navigation2/share/minibot_navigation2/maps/turtle_world.pgm
+[5.884s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_navigation2/share/minibot_navigation2/maps/turtle_world.yaml
+[5.891s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_navigation2/share/minibot_navigation2/params/nav2_params.yaml
+[5.897s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_navigation2/share/minibot_navigation2/rviz/map_building.rviz
+[5.904s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_navigation2/share/minibot_navigation2/rviz/nav2_view.rviz
+[5.911s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_navigation2/share/ament_index/resource_index/package_run_dependencies/minibot_navigation2
+[5.918s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_navigation2/share/ament_index/resource_index/parent_prefix_path/minibot_navigation2
+[5.924s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_navigation2/share/minibot_navigation2/environment/ament_prefix_path.sh
+[5.931s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_navigation2/share/minibot_navigation2/environment/ament_prefix_path.dsv
+[5.938s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_navigation2/share/minibot_navigation2/environment/path.sh
+[5.945s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_navigation2/share/minibot_navigation2/environment/path.dsv
+[5.954s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_navigation2/share/minibot_navigation2/local_setup.bash
+[5.960s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_navigation2/share/minibot_navigation2/local_setup.sh
+[5.967s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_navigation2/share/minibot_navigation2/local_setup.zsh
+[5.974s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_navigation2/share/minibot_navigation2/local_setup.dsv
+[5.981s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_navigation2/share/minibot_navigation2/package.dsv
+[5.990s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_navigation2/share/ament_index/resource_index/packages/minibot_navigation2
+[5.996s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_navigation2/share/minibot_navigation2/cmake/minibot_navigation2Config.cmake
+[6.004s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_navigation2/share/minibot_navigation2/cmake/minibot_navigation2Config-version.cmake
+[6.011s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_navigation2/share/minibot_navigation2/package.xml
+[6.020s] Invoked command in '/home/dong/turtlebot4-ws/build/minibot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4-ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4-ws/install/teleop_twist_keyboard:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4-ws/build/minibot_navigation2

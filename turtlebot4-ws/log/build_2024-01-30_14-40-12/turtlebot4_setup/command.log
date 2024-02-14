@@ -1,0 +1,4 @@
+Invoking command in '/home/dong/turtlebot4_ws/build/turtlebot4_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dong/turtlebot4_ws/src/turtlebot4_setup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dong/turtlebot4_ws/install/turtlebot4_setup
+Invoked command in '/home/dong/turtlebot4_ws/build/turtlebot4_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dong/turtlebot4_ws/src/turtlebot4_setup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dong/turtlebot4_ws/install/turtlebot4_setup
+Invoking command in '/home/dong/turtlebot4_ws/build/turtlebot4_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/turtlebot4_setup -- -j8 -l8
+Invoked command in '/home/dong/turtlebot4_ws/build/turtlebot4_setup' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/turtlebot4_setup -- -j8 -l8

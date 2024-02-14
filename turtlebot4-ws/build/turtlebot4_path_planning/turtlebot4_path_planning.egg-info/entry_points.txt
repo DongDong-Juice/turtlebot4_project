@@ -1,0 +1,3 @@
+[console_scripts]
+turtlebot4_global_path = turtlebot4_path_planning.turtlebot4_global_path:main
+turtlebot4_pub_path = turtlebot4_path_planning.turtlebot4_pub_path:main

@@ -1,0 +1,35 @@
+[0.173s] Invoking command in '/home/dong/turtlebot4-ws/build/minibot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dong/turtlebot4-ws/src/pinklab_minibot_robot/minibot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dong/turtlebot4-ws/install/minibot_description
+[0.211s] -- The C compiler identification is GNU 11.4.0
+[0.259s] -- The CXX compiler identification is GNU 11.4.0
+[0.264s] -- Detecting C compiler ABI info
+[0.323s] -- Detecting C compiler ABI info - done
+[0.331s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.332s] -- Detecting C compile features
+[0.332s] -- Detecting C compile features - done
+[0.336s] -- Detecting CXX compiler ABI info
+[0.411s] -- Detecting CXX compiler ABI info - done
+[0.421s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.421s] -- Detecting CXX compile features
+[0.422s] -- Detecting CXX compile features - done
+[0.424s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.817s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.869s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.893s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.893s]   By not providing "Findxacro.cmake" in CMAKE_MODULE_PATH this project has
+[0.893s]   asked CMake to find a package configuration file provided by "xacro", but
+[0.893s]   CMake did not find one.
+[0.893s] 
+[0.893s]   Could not find a package configuration file provided by "xacro" with any of
+[0.893s]   the following names:
+[0.893s] 
+[0.893s]     xacroConfig.cmake
+[0.894s]     xacro-config.cmake
+[0.894s] 
+[0.894s]   Add the installation prefix of "xacro" to CMAKE_PREFIX_PATH or set
+[0.894s]   "xacro_DIR" to a directory containing one of the above files.  If "xacro"
+[0.894s]   provides a separate development package or SDK, be sure it has been
+[0.894s]   installed.
+[0.894s] 
+[0.894s] [0m
+[0.894s] -- Configuring incomplete, errors occurred!
+[0.894s] See also "/home/dong/turtlebot4-ws/build/minibot_description/CMakeFiles/CMakeOutput.log".

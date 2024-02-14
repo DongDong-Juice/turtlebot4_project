@@ -1,0 +1,42 @@
+[1.024s] Invoking command in '/home/dong/turtlebot4_ws/build/teleop_twist_keyboard': PYTHONPATH=/home/dong/turtlebot4_ws/build/teleop_twist_keyboard/prefix_override:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/dong/turtlebot4_ws/build/teleop_twist_keyboard/build --no-deps
+[1.261s] running develop
+[1.262s] /home/dong/.local/lib/python3.10/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.262s] !!
+[1.262s] 
+[1.262s]         ********************************************************************************
+[1.263s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.263s]         Instead, use pypa/build, pypa/installer or other
+[1.263s]         standards-based tools.
+[1.263s] 
+[1.263s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.263s]         ********************************************************************************
+[1.263s] 
+[1.263s] !!
+[1.264s]   easy_install.initialize_options(self)
+[1.287s] /home/dong/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.287s] !!
+[1.287s] 
+[1.287s]         ********************************************************************************
+[1.287s]         Please avoid running ``setup.py`` directly.
+[1.287s]         Instead, use pypa/build, pypa/installer or other
+[1.287s]         standards-based tools.
+[1.287s] 
+[1.287s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.287s]         ********************************************************************************
+[1.287s] 
+[1.287s] !!
+[1.287s]   self.initialize_options()
+[1.428s] running egg_info
+[1.440s] writing teleop_twist_keyboard.egg-info/PKG-INFO
+[1.441s] writing dependency_links to teleop_twist_keyboard.egg-info/dependency_links.txt
+[1.441s] writing entry points to teleop_twist_keyboard.egg-info/entry_points.txt
+[1.441s] writing requirements to teleop_twist_keyboard.egg-info/requires.txt
+[1.441s] writing top-level names to teleop_twist_keyboard.egg-info/top_level.txt
+[1.465s] reading manifest file 'teleop_twist_keyboard.egg-info/SOURCES.txt'
+[1.465s] writing manifest file 'teleop_twist_keyboard.egg-info/SOURCES.txt'
+[1.478s] running build_ext
+[1.478s] Creating /home/dong/turtlebot4_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard.egg-link (link to .)
+[1.478s] Installing teleop_twist_keyboard script to /home/dong/turtlebot4_ws/install/teleop_twist_keyboard/bin
+[1.478s] 
+[1.478s] Installed /home/dong/turtlebot4_ws/build/teleop_twist_keyboard
+[1.504s] Invoked command in '/home/dong/turtlebot4_ws/build/teleop_twist_keyboard' returned '0': PYTHONPATH=/home/dong/turtlebot4_ws/build/teleop_twist_keyboard/prefix_override:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/dong/turtlebot4_ws/build/teleop_twist_keyboard/build --no-deps

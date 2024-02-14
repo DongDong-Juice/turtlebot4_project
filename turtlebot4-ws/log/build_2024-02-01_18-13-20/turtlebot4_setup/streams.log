@@ -1,0 +1,43 @@
+[0.505s] Invoking command in '/home/dong/turtlebot4_ws/build/turtlebot4_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/turtlebot4_setup -- -j8 -l8
+[0.566s] Built target ament_cmake_python_symlink_turtlebot4_setup
+[0.726s] running egg_info
+[0.741s] writing turtlebot4_setup.egg-info/PKG-INFO
+[0.741s] writing dependency_links to turtlebot4_setup.egg-info/dependency_links.txt
+[0.741s] writing top-level names to turtlebot4_setup.egg-info/top_level.txt
+[0.797s] reading manifest file 'turtlebot4_setup.egg-info/SOURCES.txt'
+[0.798s] writing manifest file 'turtlebot4_setup.egg-info/SOURCES.txt'
+[0.827s] Built target ament_cmake_python_build_turtlebot4_setup_egg
+[1.007s] Invoked command in '/home/dong/turtlebot4_ws/build/turtlebot4_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/turtlebot4_setup -- -j8 -l8
+[1.145s] Invoking command in '/home/dong/turtlebot4_ws/build/turtlebot4_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4_ws/build/turtlebot4_setup
+[1.223s] -- Install configuration: ""
+[1.223s] -- Execute custom install script
+[1.223s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/environment/pythonpath.sh
+[1.223s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/environment/pythonpath.dsv
+[1.223s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup-1.0.3-py3.10.egg-info/PKG-INFO
+[1.223s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup-1.0.3-py3.10.egg-info/SOURCES.txt
+[1.223s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup-1.0.3-py3.10.egg-info/dependency_links.txt
+[1.223s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup-1.0.3-py3.10.egg-info/top_level.txt
+[1.223s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup/__init__.py
+[1.223s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup/conf.py
+[1.223s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup/menu.py
+[1.223s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup/ros_setup.py
+[1.223s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup/turtlebot4_setup
+[1.223s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup/wifi.py
+[1.224s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/lib/turtlebot4_setup/turtlebot4_setup
+[1.224s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/ament_index/resource_index/package_run_dependencies/turtlebot4_setup
+[1.224s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/ament_index/resource_index/parent_prefix_path/turtlebot4_setup
+[1.224s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/environment/ament_prefix_path.sh
+[1.224s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/environment/ament_prefix_path.dsv
+[1.224s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/environment/path.sh
+[1.224s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/environment/path.dsv
+[1.224s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/local_setup.bash
+[1.224s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/local_setup.sh
+[1.224s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/local_setup.zsh
+[1.224s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/local_setup.dsv
+[1.224s] -- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/package.dsv
+[1.224s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/ament_index/resource_index/packages/turtlebot4_setup
+[1.224s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/cmake/turtlebot4_setupConfig.cmake
+[1.224s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/cmake/turtlebot4_setupConfig-version.cmake
+[1.224s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/package.xml
+[1.224s] Listing '/home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup'...
+[1.280s] Invoked command in '/home/dong/turtlebot4_ws/build/turtlebot4_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4_ws/build/turtlebot4_setup

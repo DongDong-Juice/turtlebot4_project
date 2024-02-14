@@ -1,0 +1,1 @@
+Invoking command in '/home/dong/turtlebot4_ws/build/minibot_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/minibot_hardware_interface -- -j8 -l8

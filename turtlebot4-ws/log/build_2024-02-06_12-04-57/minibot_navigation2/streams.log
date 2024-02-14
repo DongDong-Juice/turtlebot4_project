@@ -1,0 +1,36 @@
+[0.149s] Invoking command in '/home/dong/turtlebot4-ws/build/minibot_navigation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dong/turtlebot4-ws/src/pinklab_minibot_robot/minibot_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dong/turtlebot4-ws/install/minibot_navigation2
+[0.573s] -- The C compiler identification is GNU 11.4.0
+[0.574s] -- The CXX compiler identification is GNU 11.4.0
+[0.574s] -- Detecting C compiler ABI info
+[0.574s] -- Detecting C compiler ABI info - done
+[0.574s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.574s] -- Detecting C compile features
+[0.574s] -- Detecting C compile features - done
+[0.574s] -- Detecting CXX compiler ABI info
+[0.574s] -- Detecting CXX compiler ABI info - done
+[0.574s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.574s] -- Detecting CXX compile features
+[0.575s] -- Detecting CXX compile features - done
+[0.575s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.912s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.990s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.023s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[1.023s]   By not providing "Findslam_toolbox.cmake" in CMAKE_MODULE_PATH this project
+[1.023s]   has asked CMake to find a package configuration file provided by
+[1.023s]   "slam_toolbox", but CMake did not find one.
+[1.023s] 
+[1.023s]   Could not find a package configuration file provided by "slam_toolbox" with
+[1.024s]   any of the following names:
+[1.024s] 
+[1.024s]     slam_toolboxConfig.cmake
+[1.024s]     slam_toolbox-config.cmake
+[1.024s] 
+[1.024s]   Add the installation prefix of "slam_toolbox" to CMAKE_PREFIX_PATH or set
+[1.024s]   "slam_toolbox_DIR" to a directory containing one of the above files.  If
+[1.024s]   "slam_toolbox" provides a separate development package or SDK, be sure it
+[1.024s]   has been installed.
+[1.024s] 
+[1.024s] [0m
+[1.024s] -- Configuring incomplete, errors occurred!
+[1.024s] See also "/home/dong/turtlebot4-ws/build/minibot_navigation2/CMakeFiles/CMakeOutput.log".
+[1.028s] Invoked command in '/home/dong/turtlebot4-ws/build/minibot_navigation2' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dong/turtlebot4-ws/src/pinklab_minibot_robot/minibot_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dong/turtlebot4-ws/install/minibot_navigation2

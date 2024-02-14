@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating turtlebot4_path_planning.egg-info
+writing turtlebot4_path_planning.egg-info/PKG-INFO
+writing dependency_links to turtlebot4_path_planning.egg-info/dependency_links.txt
+writing entry points to turtlebot4_path_planning.egg-info/entry_points.txt
+writing requirements to turtlebot4_path_planning.egg-info/requires.txt
+writing top-level names to turtlebot4_path_planning.egg-info/top_level.txt
+writing manifest file 'turtlebot4_path_planning.egg-info/SOURCES.txt'
+reading manifest file 'turtlebot4_path_planning.egg-info/SOURCES.txt'
+writing manifest file 'turtlebot4_path_planning.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dong/turtlebot4-ws/install/turtlebot4_path_planning/lib/python3.10/site-packages/turtlebot4_path_planning.egg-link (link to .)
+Installing turtlebot4_global_path script to /home/dong/turtlebot4-ws/install/turtlebot4_path_planning/lib/turtlebot4_path_planning
+
+Installed /home/dong/turtlebot4-ws/build/turtlebot4_path_planning
+running install_data
+creating /home/dong/turtlebot4-ws/install/turtlebot4_path_planning/share/ament_index
+creating /home/dong/turtlebot4-ws/install/turtlebot4_path_planning/share/ament_index/resource_index
+creating /home/dong/turtlebot4-ws/install/turtlebot4_path_planning/share/ament_index/resource_index/packages
+copying resource/turtlebot4_path_planning -> /home/dong/turtlebot4-ws/install/turtlebot4_path_planning/share/ament_index/resource_index/packages
+copying package.xml -> /home/dong/turtlebot4-ws/install/turtlebot4_path_planning/share/turtlebot4_path_planning

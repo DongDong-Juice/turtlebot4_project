@@ -1,0 +1,4 @@
+failed to create symbolic link '/home/dong/turtlebot4_ws/build/turtlebot4_setup/ament_cmake_python/turtlebot4_setup/turtlebot4_setup' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_turtlebot4_setup.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_turtlebot4_setup] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/ament_cmake_python_symlink_turtlebot4_setup.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2

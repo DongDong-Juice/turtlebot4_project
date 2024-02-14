@@ -1,0 +1,35 @@
+[0.340s] Invoking command in '/home/dong/turtlebot4_ws/build/minibot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/minibot_navigation2 -- -j8 -l8
+[1.001s] Invoked command in '/home/dong/turtlebot4_ws/build/minibot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/minibot_navigation2 -- -j8 -l8
+[1.052s] Invoking command in '/home/dong/turtlebot4_ws/build/minibot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4_ws/build/minibot_navigation2
+[1.063s] -- Install configuration: ""
+[1.064s] -- Execute custom install script
+[1.065s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/config/mapper_params.yaml
+[1.065s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/launch/bringup_launch.py
+[1.065s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/launch/localization_launch.py
+[1.066s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/launch/map_building.launch.py
+[1.066s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/launch/navigation_launch.py
+[1.066s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/launch/rviz_launch.py
+[1.066s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/maps/.empty
+[1.067s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/maps/simple_building.pgm
+[1.067s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/maps/simple_building.yaml
+[1.067s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/maps/turtle_world.pgm
+[1.067s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/maps/turtle_world.yaml
+[1.068s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/params/nav2_params.yaml
+[1.068s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/rviz/map_building.rviz
+[1.068s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/rviz/nav2_view.rviz
+[1.068s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_navigation2/share/ament_index/resource_index/package_run_dependencies/minibot_navigation2
+[1.069s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_navigation2/share/ament_index/resource_index/parent_prefix_path/minibot_navigation2
+[1.069s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/environment/ament_prefix_path.sh
+[1.069s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/environment/ament_prefix_path.dsv
+[1.070s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/environment/path.sh
+[1.070s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/environment/path.dsv
+[1.070s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/local_setup.bash
+[1.071s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/local_setup.sh
+[1.071s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/local_setup.zsh
+[1.072s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/local_setup.dsv
+[1.072s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/package.dsv
+[1.087s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_navigation2/share/ament_index/resource_index/packages/minibot_navigation2
+[1.087s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/cmake/minibot_navigation2Config.cmake
+[1.087s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/cmake/minibot_navigation2Config-version.cmake
+[1.088s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/package.xml
+[1.098s] Invoked command in '/home/dong/turtlebot4_ws/build/minibot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4_ws/build/minibot_navigation2

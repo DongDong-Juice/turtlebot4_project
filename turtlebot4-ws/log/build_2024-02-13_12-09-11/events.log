@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.000230] (turtlebot4_cmd_py) JobQueued: {'identifier': 'turtlebot4_cmd_py', 'dependencies': OrderedDict()}
+[0.000417] (turtlebot4_path_planning) JobQueued: {'identifier': 'turtlebot4_path_planning', 'dependencies': OrderedDict()}
+[0.000434] (turtlebot4_cmd_py) JobStarted: {'identifier': 'turtlebot4_cmd_py'}
+[0.064402] (turtlebot4_path_planning) JobStarted: {'identifier': 'turtlebot4_path_planning'}
+[0.099827] (-) TimerEvent: {}
+[0.200118] (-) TimerEvent: {}
+[0.300426] (-) TimerEvent: {}
+[0.400775] (-) TimerEvent: {}
+[0.501029] (-) TimerEvent: {}
+[0.601293] (-) TimerEvent: {}
+[0.701566] (-) TimerEvent: {}
+[0.801828] (-) TimerEvent: {}
+[0.902148] (-) TimerEvent: {}
+[1.002497] (-) TimerEvent: {}
+[1.008998] (turtlebot4_cmd_py) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/dong/turtlebot4-ws/build/turtlebot4_cmd_py/build', '--no-deps', 'install_data'], 'cwd': '/home/dong/turtlebot4-ws/build/turtlebot4_cmd_py', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en_AU:en', 'USER': 'dong', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/dong', 'OLDPWD': '/home/dong', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1639', 'SYSTEMD_EXEC_PID': '2162', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3090', 'COLCON_PREFIX_PATH': '/home/dong/turtlebot4-ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'dong', 'JOURNAL_STREAM': '8:33241', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dong', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/dong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/dong-Vostro-15-5510:@/tmp/.ICE-unix/2133,unix/dong-Vostro-15-5510:/tmp/.ICE-unix/2133', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/etc/turtlebot4_discovery/fastdds_discovery_super_client.xml', 'INVOCATION_ID': 'd7946869ec3c4bc1875093ee50f63017', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/dong/turtlebot4-ws/install/turtlebot4_path_planning:/home/dong/turtlebot4-ws/install/turtlebot4_cmd_py:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:34f86d9b-5d3c-4d5d-aefb-03369d4fdfa5', 'ROS_DISCOVERY_SERVER': '172.19.201.100:11811', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dong/turtlebot4-ws/build/turtlebot4_cmd_py', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dong/turtlebot4-ws/build/turtlebot4_cmd_py/prefix_override:/home/dong/turtlebot4-ws/install/turtlebot4_cmd_py/lib/python3.10/site-packages:/home/dong/turtlebot4-ws/build/turtlebot4_path_planning:/home/dong/turtlebot4-ws/install/turtlebot4_path_planning/lib/python3.10/site-packages:/home/dong/turtlebot4-ws/build/turtlebot4_cmd_py:/home/dong/turtlebot4-ws/install/turtlebot4_cmd_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.035458] (turtlebot4_path_planning) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/dong/turtlebot4-ws/build/turtlebot4_path_planning/build', '--no-deps', 'install_data'], 'cwd': '/home/dong/turtlebot4-ws/build/turtlebot4_path_planning', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en_AU:en', 'USER': 'dong', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/dong', 'OLDPWD': '/home/dong', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1639', 'SYSTEMD_EXEC_PID': '2162', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3090', 'COLCON_PREFIX_PATH': '/home/dong/turtlebot4-ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'dong', 'JOURNAL_STREAM': '8:33241', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dong', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/dong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/dong-Vostro-15-5510:@/tmp/.ICE-unix/2133,unix/dong-Vostro-15-5510:/tmp/.ICE-unix/2133', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/etc/turtlebot4_discovery/fastdds_discovery_super_client.xml', 'INVOCATION_ID': 'd7946869ec3c4bc1875093ee50f63017', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/dong/turtlebot4-ws/install/turtlebot4_path_planning:/home/dong/turtlebot4-ws/install/turtlebot4_cmd_py:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:34f86d9b-5d3c-4d5d-aefb-03369d4fdfa5', 'ROS_DISCOVERY_SERVER': '172.19.201.100:11811', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dong/turtlebot4-ws/build/turtlebot4_path_planning', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dong/turtlebot4-ws/build/turtlebot4_path_planning/prefix_override:/home/dong/turtlebot4-ws/install/turtlebot4_path_planning/lib/python3.10/site-packages:/home/dong/turtlebot4-ws/build/turtlebot4_path_planning:/home/dong/turtlebot4-ws/install/turtlebot4_path_planning/lib/python3.10/site-packages:/home/dong/turtlebot4-ws/build/turtlebot4_cmd_py:/home/dong/turtlebot4-ws/install/turtlebot4_cmd_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.102597] (-) TimerEvent: {}
+[1.202925] (-) TimerEvent: {}
+[1.303247] (-) TimerEvent: {}
+[1.305780] (turtlebot4_cmd_py) StdoutLine: {'line': b'running develop\n'}
+[1.306409] (turtlebot4_cmd_py) StderrLine: {'line': b'/home/dong/.local/lib/python3.10/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[1.306574] (turtlebot4_cmd_py) StderrLine: {'line': b'!!\n'}
+[1.306665] (turtlebot4_cmd_py) StderrLine: {'line': b'\n'}
+[1.306744] (turtlebot4_cmd_py) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.306829] (turtlebot4_cmd_py) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[1.306906] (turtlebot4_cmd_py) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[1.306985] (turtlebot4_cmd_py) StderrLine: {'line': b'        standards-based tools.\n'}
+[1.307078] (turtlebot4_cmd_py) StderrLine: {'line': b'\n'}
+[1.307151] (turtlebot4_cmd_py) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[1.307225] (turtlebot4_cmd_py) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.307300] (turtlebot4_cmd_py) StderrLine: {'line': b'\n'}
+[1.307374] (turtlebot4_cmd_py) StderrLine: {'line': b'!!\n'}
+[1.307452] (turtlebot4_cmd_py) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[1.333129] (turtlebot4_cmd_py) StderrLine: {'line': b'/home/dong/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[1.333424] (turtlebot4_cmd_py) StderrLine: {'line': b'!!\n'}
+[1.333544] (turtlebot4_cmd_py) StderrLine: {'line': b'\n'}
+[1.333628] (turtlebot4_cmd_py) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.333710] (turtlebot4_cmd_py) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[1.333800] (turtlebot4_cmd_py) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[1.333879] (turtlebot4_cmd_py) StderrLine: {'line': b'        standards-based tools.\n'}
+[1.333994] (turtlebot4_cmd_py) StderrLine: {'line': b'\n'}
+[1.334084] (turtlebot4_cmd_py) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[1.334167] (turtlebot4_cmd_py) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.334255] (turtlebot4_cmd_py) StderrLine: {'line': b'\n'}
+[1.334337] (turtlebot4_cmd_py) StderrLine: {'line': b'!!\n'}
+[1.334418] (turtlebot4_cmd_py) StderrLine: {'line': b'  self.initialize_options()\n'}
+[1.334499] (turtlebot4_path_planning) StdoutLine: {'line': b'running develop\n'}
+[1.334618] (turtlebot4_path_planning) StderrLine: {'line': b'/home/dong/.local/lib/python3.10/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[1.334724] (turtlebot4_path_planning) StderrLine: {'line': b'!!\n'}
+[1.334805] (turtlebot4_path_planning) StderrLine: {'line': b'\n'}
+[1.334884] (turtlebot4_path_planning) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.334961] (turtlebot4_path_planning) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[1.335040] (turtlebot4_path_planning) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[1.335123] (turtlebot4_path_planning) StderrLine: {'line': b'        standards-based tools.\n'}
+[1.335203] (turtlebot4_path_planning) StderrLine: {'line': b'\n'}
+[1.335285] (turtlebot4_path_planning) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[1.335365] (turtlebot4_path_planning) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.335446] (turtlebot4_path_planning) StderrLine: {'line': b'\n'}
+[1.335523] (turtlebot4_path_planning) StderrLine: {'line': b'!!\n'}
+[1.335602] (turtlebot4_path_planning) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[1.362825] (turtlebot4_path_planning) StderrLine: {'line': b'/home/dong/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[1.363020] (turtlebot4_path_planning) StderrLine: {'line': b'!!\n'}
+[1.363119] (turtlebot4_path_planning) StderrLine: {'line': b'\n'}
+[1.363195] (turtlebot4_path_planning) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.363270] (turtlebot4_path_planning) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[1.363344] (turtlebot4_path_planning) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[1.363417] (turtlebot4_path_planning) StderrLine: {'line': b'        standards-based tools.\n'}
+[1.363491] (turtlebot4_path_planning) StderrLine: {'line': b'\n'}
+[1.363562] (turtlebot4_path_planning) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[1.363634] (turtlebot4_path_planning) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.363706] (turtlebot4_path_planning) StderrLine: {'line': b'\n'}
+[1.363777] (turtlebot4_path_planning) StderrLine: {'line': b'!!\n'}
+[1.363847] (turtlebot4_path_planning) StderrLine: {'line': b'  self.initialize_options()\n'}
+[1.403428] (-) TimerEvent: {}
+[1.488517] (turtlebot4_cmd_py) StdoutLine: {'line': b'running egg_info\n'}
+[1.500924] (turtlebot4_cmd_py) StdoutLine: {'line': b'writing turtlebot4_cmd_py.egg-info/PKG-INFO\n'}
+[1.501373] (turtlebot4_cmd_py) StdoutLine: {'line': b'writing dependency_links to turtlebot4_cmd_py.egg-info/dependency_links.txt\n'}
+[1.501623] (turtlebot4_cmd_py) StdoutLine: {'line': b'writing entry points to turtlebot4_cmd_py.egg-info/entry_points.txt\n'}
+[1.501799] (turtlebot4_cmd_py) StdoutLine: {'line': b'writing requirements to turtlebot4_cmd_py.egg-info/requires.txt\n'}
+[1.501898] (turtlebot4_cmd_py) StdoutLine: {'line': b'writing top-level names to turtlebot4_cmd_py.egg-info/top_level.txt\n'}
+[1.503498] (-) TimerEvent: {}
+[1.524109] (turtlebot4_path_planning) StdoutLine: {'line': b'running egg_info\n'}
+[1.528926] (turtlebot4_cmd_py) StdoutLine: {'line': b"reading manifest file 'turtlebot4_cmd_py.egg-info/SOURCES.txt'\n"}
+[1.530584] (turtlebot4_cmd_py) StdoutLine: {'line': b"writing manifest file 'turtlebot4_cmd_py.egg-info/SOURCES.txt'\n"}
+[1.537161] (turtlebot4_path_planning) StdoutLine: {'line': b'writing turtlebot4_path_planning.egg-info/PKG-INFO\n'}
+[1.537787] (turtlebot4_path_planning) StdoutLine: {'line': b'writing dependency_links to turtlebot4_path_planning.egg-info/dependency_links.txt\n'}
+[1.537993] (turtlebot4_path_planning) StdoutLine: {'line': b'writing entry points to turtlebot4_path_planning.egg-info/entry_points.txt\n'}
+[1.538167] (turtlebot4_path_planning) StdoutLine: {'line': b'writing requirements to turtlebot4_path_planning.egg-info/requires.txt\n'}
+[1.538299] (turtlebot4_path_planning) StdoutLine: {'line': b'writing top-level names to turtlebot4_path_planning.egg-info/top_level.txt\n'}
+[1.547276] (turtlebot4_cmd_py) StdoutLine: {'line': b'running build_ext\n'}
+[1.548292] (turtlebot4_cmd_py) StdoutLine: {'line': b'Creating /home/dong/turtlebot4-ws/install/turtlebot4_cmd_py/lib/python3.10/site-packages/turtlebot4_cmd_py.egg-link (link to .)\n'}
+[1.549061] (turtlebot4_cmd_py) StdoutLine: {'line': b'Installing Turtlebot4Ctl script to /home/dong/turtlebot4-ws/install/turtlebot4_cmd_py/lib/turtlebot4_cmd_py\n'}
+[1.549201] (turtlebot4_cmd_py) StdoutLine: {'line': b'Installing pub script to /home/dong/turtlebot4-ws/install/turtlebot4_cmd_py/lib/turtlebot4_cmd_py\n'}
+[1.549314] (turtlebot4_cmd_py) StdoutLine: {'line': b'Installing sub script to /home/dong/turtlebot4-ws/install/turtlebot4_cmd_py/lib/turtlebot4_cmd_py\n'}
+[1.549417] (turtlebot4_cmd_py) StdoutLine: {'line': b'Installing test script to /home/dong/turtlebot4-ws/install/turtlebot4_cmd_py/lib/turtlebot4_cmd_py\n'}
+[1.549532] (turtlebot4_cmd_py) StdoutLine: {'line': b'Installing test1 script to /home/dong/turtlebot4-ws/install/turtlebot4_cmd_py/lib/turtlebot4_cmd_py\n'}
+[1.549716] (turtlebot4_cmd_py) StdoutLine: {'line': b'Installing test2 script to /home/dong/turtlebot4-ws/install/turtlebot4_cmd_py/lib/turtlebot4_cmd_py\n'}
+[1.549873] (turtlebot4_cmd_py) StdoutLine: {'line': b'\n'}
+[1.549937] (turtlebot4_cmd_py) StdoutLine: {'line': b'Installed /home/dong/turtlebot4-ws/build/turtlebot4_cmd_py\n'}
+[1.549983] (turtlebot4_cmd_py) StdoutLine: {'line': b'running install_data\n'}
+[1.550045] (turtlebot4_cmd_py) StdoutLine: {'line': b'copying resource/turtlebot4_cmd_py -> /home/dong/turtlebot4-ws/install/turtlebot4_cmd_py/share/ament_index/resource_index/packages\n'}
+[1.550125] (turtlebot4_cmd_py) StdoutLine: {'line': b'copying package.xml -> /home/dong/turtlebot4-ws/install/turtlebot4_cmd_py/share/turtlebot4_cmd_py\n'}
+[1.550228] (turtlebot4_cmd_py) StdoutLine: {'line': b'copying launch/turtlebot4_launch.launch.py -> /home/dong/turtlebot4-ws/install/turtlebot4_cmd_py/share/turtlebot4_cmd_py\n'}
+[1.571732] (turtlebot4_path_planning) StdoutLine: {'line': b"reading manifest file 'turtlebot4_path_planning.egg-info/SOURCES.txt'\n"}
+[1.572426] (turtlebot4_path_planning) StdoutLine: {'line': b"writing manifest file 'turtlebot4_path_planning.egg-info/SOURCES.txt'\n"}
+[1.580820] (turtlebot4_cmd_py) CommandEnded: {'returncode': 0}
+[1.586696] (turtlebot4_path_planning) StdoutLine: {'line': b'running build_ext\n'}
+[1.586877] (turtlebot4_path_planning) StdoutLine: {'line': b'Creating /home/dong/turtlebot4-ws/install/turtlebot4_path_planning/lib/python3.10/site-packages/turtlebot4_path_planning.egg-link (link to .)\n'}
+[1.587582] (turtlebot4_path_planning) StdoutLine: {'line': b'Installing turtlebot4_global_path script to /home/dong/turtlebot4-ws/install/turtlebot4_path_planning/lib/turtlebot4_path_planning\n'}
+[1.588031] (turtlebot4_path_planning) StdoutLine: {'line': b'Installing turtlebot4_pub_path script to /home/dong/turtlebot4-ws/install/turtlebot4_path_planning/lib/turtlebot4_path_planning\n'}
+[1.588111] (turtlebot4_path_planning) StdoutLine: {'line': b'\n'}
+[1.588160] (turtlebot4_path_planning) StdoutLine: {'line': b'Installed /home/dong/turtlebot4-ws/build/turtlebot4_path_planning\n'}
+[1.588242] (turtlebot4_path_planning) StdoutLine: {'line': b'running install_data\n'}
+[1.588291] (turtlebot4_path_planning) StdoutLine: {'line': b'copying resource/turtlebot4_path_planning -> /home/dong/turtlebot4-ws/install/turtlebot4_path_planning/share/ament_index/resource_index/packages\n'}
+[1.588484] (turtlebot4_path_planning) StdoutLine: {'line': b'copying package.xml -> /home/dong/turtlebot4-ws/install/turtlebot4_path_planning/share/turtlebot4_path_planning\n'}
+[1.603715] (-) TimerEvent: {}
+[1.650830] (turtlebot4_cmd_py) JobEnded: {'identifier': 'turtlebot4_cmd_py', 'rc': 0}
+[1.651787] (turtlebot4_path_planning) CommandEnded: {'returncode': 0}
+[1.703826] (-) TimerEvent: {}
+[1.707426] (turtlebot4_path_planning) JobEnded: {'identifier': 'turtlebot4_path_planning', 'rc': 0}
+[1.707877] (-) EventReactorShutdown: {}

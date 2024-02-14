@@ -1,0 +1,1 @@
+Invoking command in '/home/dong/turtlebot4-ws/build/turtlebot4_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dong/turtlebot4-ws/src/turtlebot4_setup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dong/turtlebot4-ws/install/turtlebot4_setup

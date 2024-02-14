@@ -1,0 +1,1 @@
+[0.294s] Invoking command in '/home/dong/turtlebot4_ws/build/minibot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/minibot_description -- -j8 -l8

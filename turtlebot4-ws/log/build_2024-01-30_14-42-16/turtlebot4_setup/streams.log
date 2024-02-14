@@ -1,0 +1,76 @@
+[0.041s] Invoking command in '/home/dong/turtlebot4_ws/build/turtlebot4_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dong/turtlebot4_ws/src/turtlebot4_setup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dong/turtlebot4_ws/install/turtlebot4_setup
+[0.131s] -- The C compiler identification is GNU 11.4.0
+[0.202s] -- The CXX compiler identification is GNU 11.4.0
+[0.207s] -- Detecting C compiler ABI info
+[0.253s] -- Detecting C compiler ABI info - done
+[0.258s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.259s] -- Detecting C compile features
+[0.259s] -- Detecting C compile features - done
+[0.261s] -- Detecting CXX compiler ABI info
+[0.313s] -- Detecting CXX compiler ABI info - done
+[0.318s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.318s] -- Detecting CXX compile features
+[0.318s] -- Detecting CXX compile features - done
+[0.322s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.551s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.590s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.676s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.741s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.746s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.747s] -- Added test 'lint_cmake' to check CMake code style
+[0.747s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.750s] -- Added test 'xmllint' to check XML markup files
+[0.751s] -- Configuring done
+[0.753s] -- Generating done
+[0.753s] -- Build files have been written to: /home/dong/turtlebot4_ws/build/turtlebot4_setup
+[0.757s] Invoked command in '/home/dong/turtlebot4_ws/build/turtlebot4_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dong/turtlebot4_ws/src/turtlebot4_setup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dong/turtlebot4_ws/install/turtlebot4_setup
+[0.758s] Invoking command in '/home/dong/turtlebot4_ws/build/turtlebot4_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/turtlebot4_setup -- -j8 -l8
+[0.792s] Built target ament_cmake_python_symlink_turtlebot4_setup
+[0.928s] running egg_info
+[0.929s] creating turtlebot4_setup.egg-info
+[0.940s] writing turtlebot4_setup.egg-info/PKG-INFO
+[0.941s] writing dependency_links to turtlebot4_setup.egg-info/dependency_links.txt
+[0.941s] writing top-level names to turtlebot4_setup.egg-info/top_level.txt
+[0.941s] writing manifest file 'turtlebot4_setup.egg-info/SOURCES.txt'
+[0.975s] reading manifest file 'turtlebot4_setup.egg-info/SOURCES.txt'
+[0.975s] writing manifest file 'turtlebot4_setup.egg-info/SOURCES.txt'
+[0.992s] Built target ament_cmake_python_build_turtlebot4_setup_egg
+[0.999s] Invoked command in '/home/dong/turtlebot4_ws/build/turtlebot4_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/turtlebot4_setup -- -j8 -l8
+[1.020s] Invoking command in '/home/dong/turtlebot4_ws/build/turtlebot4_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4_ws/build/turtlebot4_setup
+[1.024s] -- Install configuration: ""
+[1.024s] -- Execute custom install script
+[1.024s] -- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/environment/pythonpath.sh
+[1.030s] -- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/environment/pythonpath.dsv
+[1.036s] -- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup-1.0.3-py3.10.egg-info/PKG-INFO
+[1.042s] -- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup-1.0.3-py3.10.egg-info/SOURCES.txt
+[1.047s] -- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup-1.0.3-py3.10.egg-info/dependency_links.txt
+[1.052s] -- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup-1.0.3-py3.10.egg-info/top_level.txt
+[1.058s] -- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup/__init__.py
+[1.064s] -- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup/conf.py
+[1.069s] -- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup/menu.py
+[1.074s] -- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup/ros_setup.py
+[1.080s] -- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup/turtlebot4_setup
+[1.085s] -- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup/wifi.py
+[1.091s] -- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/lib/turtlebot4_setup/turtlebot4_setup
+[1.096s] -- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/ament_index/resource_index/package_run_dependencies/turtlebot4_setup
+[1.101s] -- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/ament_index/resource_index/parent_prefix_path/turtlebot4_setup
+[1.107s] -- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/environment/ament_prefix_path.sh
+[1.112s] -- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/environment/ament_prefix_path.dsv
+[1.118s] -- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/environment/path.sh
+[1.123s] -- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/environment/path.dsv
+[1.130s] -- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/local_setup.bash
+[1.135s] -- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/local_setup.sh
+[1.141s] -- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/local_setup.zsh
+[1.146s] -- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/local_setup.dsv
+[1.152s] -- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/package.dsv
+[1.157s] -- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/ament_index/resource_index/packages/turtlebot4_setup
+[1.163s] -- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/cmake/turtlebot4_setupConfig.cmake
+[1.168s] -- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/cmake/turtlebot4_setupConfig-version.cmake
+[1.174s] -- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/package.xml
+[1.204s] Listing '/home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup'...
+[1.204s] Compiling '/home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup/__init__.py'...
+[1.204s] Compiling '/home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup/conf.py'...
+[1.204s] Compiling '/home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup/menu.py'...
+[1.204s] Compiling '/home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup/ros_setup.py'...
+[1.205s] Compiling '/home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup/wifi.py'...
+[1.209s] Invoked command in '/home/dong/turtlebot4_ws/build/turtlebot4_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4_ws/build/turtlebot4_setup

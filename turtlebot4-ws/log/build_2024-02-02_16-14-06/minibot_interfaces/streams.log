@@ -1,0 +1,23 @@
+[0.328s] Invoking command in '/home/dong/turtlebot4_ws/build/minibot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/minibot_interfaces -- -j8 -l8
+[0.727s] [  2%] Built target minibot_interfaces__cpp
+[0.727s] [ 12%] Built target minibot_interfaces__rosidl_generator_c
+[0.727s] [ 12%] Built target ament_cmake_python_symlink_minibot_interfaces
+[0.727s] [ 23%] Built target minibot_interfaces__rosidl_typesupport_introspection_cpp
+[0.727s] [ 33%] Built target minibot_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.727s] [ 43%] Built target minibot_interfaces__rosidl_typesupport_cpp
+[0.727s] [ 53%] Built target minibot_interfaces__rosidl_typesupport_introspection_c
+[0.727s] [ 64%] Built target minibot_interfaces__rosidl_typesupport_c
+[0.727s] [ 74%] Built target minibot_interfaces__rosidl_typesupport_fastrtps_c
+[0.728s] [ 74%] Built target minibot_interfaces
+[0.728s] [ 76%] Built target minibot_interfaces__py
+[0.728s] [ 84%] Built target minibot_interfaces__rosidl_generator_py
+[0.728s] [ 92%] Built target minibot_interfaces__rosidl_typesupport_c__pyext
+[0.728s] [ 94%] Built target minibot_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.728s] [100%] Built target minibot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.728s] running egg_info
+[0.728s] writing minibot_interfaces.egg-info/PKG-INFO
+[0.728s] writing dependency_links to minibot_interfaces.egg-info/dependency_links.txt
+[0.728s] writing top-level names to minibot_interfaces.egg-info/top_level.txt
+[0.728s] reading manifest file 'minibot_interfaces.egg-info/SOURCES.txt'
+[0.728s] writing manifest file 'minibot_interfaces.egg-info/SOURCES.txt'
+[0.728s] [100%] Built target ament_cmake_python_build_minibot_interfaces_egg

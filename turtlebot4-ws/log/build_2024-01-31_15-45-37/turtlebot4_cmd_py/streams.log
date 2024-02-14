@@ -1,0 +1,72 @@
+[0.946s] Invoking command in '/home/dong/turtlebot4_ws/build/turtlebot4_cmd_py': PYTHONPATH=/home/dong/turtlebot4_ws/build/turtlebot4_cmd_py/prefix_override:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/dong/turtlebot4_ws/build/turtlebot4_cmd_py/build
+[1.198s] running develop
+[1.198s] /home/dong/.local/lib/python3.10/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.198s] !!
+[1.198s] 
+[1.198s]         ********************************************************************************
+[1.198s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.198s]         Instead, use pypa/build, pypa/installer or other
+[1.199s]         standards-based tools.
+[1.199s] 
+[1.199s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.199s]         ********************************************************************************
+[1.199s] 
+[1.199s] !!
+[1.199s]   easy_install.initialize_options(self)
+[1.233s] /home/dong/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.233s] !!
+[1.233s] 
+[1.233s]         ********************************************************************************
+[1.233s]         Please avoid running ``setup.py`` directly.
+[1.233s]         Instead, use pypa/build, pypa/installer or other
+[1.233s]         standards-based tools.
+[1.233s] 
+[1.233s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.233s]         ********************************************************************************
+[1.233s] 
+[1.233s] !!
+[1.233s]   self.initialize_options()
+[1.378s] Removing /home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/lib/python3.10/site-packages/turtlebot4_cmd_py.egg-link (link to .)
+[1.404s] Invoked command in '/home/dong/turtlebot4_ws/build/turtlebot4_cmd_py' returned '0': PYTHONPATH=/home/dong/turtlebot4_ws/build/turtlebot4_cmd_py/prefix_override:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/dong/turtlebot4_ws/build/turtlebot4_cmd_py/build
+[1.405s] Invoking command in '/home/dong/turtlebot4_ws/src/turtlebot4_cmd_py': PYTHONPATH=/home/dong/turtlebot4_ws/build/turtlebot4_cmd_py/prefix_override:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot4_cmd_py build --build-base /home/dong/turtlebot4_ws/build/turtlebot4_cmd_py/build install --record /home/dong/turtlebot4_ws/build/turtlebot4_cmd_py/install.log --single-version-externally-managed
+[1.564s] running egg_info
+[1.575s] writing ../../build/turtlebot4_cmd_py/turtlebot4_cmd_py.egg-info/PKG-INFO
+[1.576s] writing dependency_links to ../../build/turtlebot4_cmd_py/turtlebot4_cmd_py.egg-info/dependency_links.txt
+[1.576s] writing entry points to ../../build/turtlebot4_cmd_py/turtlebot4_cmd_py.egg-info/entry_points.txt
+[1.576s] writing requirements to ../../build/turtlebot4_cmd_py/turtlebot4_cmd_py.egg-info/requires.txt
+[1.576s] writing top-level names to ../../build/turtlebot4_cmd_py/turtlebot4_cmd_py.egg-info/top_level.txt
+[1.600s] reading manifest file '../../build/turtlebot4_cmd_py/turtlebot4_cmd_py.egg-info/SOURCES.txt'
+[1.601s] writing manifest file '../../build/turtlebot4_cmd_py/turtlebot4_cmd_py.egg-info/SOURCES.txt'
+[1.601s] running build
+[1.601s] running build_py
+[1.601s] copying turtlebot4_cmd_py/__init__.py -> /home/dong/turtlebot4_ws/build/turtlebot4_cmd_py/build/lib/turtlebot4_cmd_py
+[1.601s] copying turtlebot4_cmd_py/turtlebot4_ctl.py -> /home/dong/turtlebot4_ws/build/turtlebot4_cmd_py/build/lib/turtlebot4_cmd_py
+[1.601s] running install
+[1.602s] /home/dong/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.602s] !!
+[1.602s] 
+[1.602s]         ********************************************************************************
+[1.602s]         Please avoid running ``setup.py`` directly.
+[1.602s]         Instead, use pypa/build, pypa/installer or other
+[1.602s]         standards-based tools.
+[1.602s] 
+[1.602s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.602s]         ********************************************************************************
+[1.602s] 
+[1.602s] !!
+[1.602s]   self.initialize_options()
+[1.606s] running install_lib
+[1.618s] creating /home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/lib/python3.10/site-packages/turtlebot4_cmd_py
+[1.618s] copying /home/dong/turtlebot4_ws/build/turtlebot4_cmd_py/build/lib/turtlebot4_cmd_py/__init__.py -> /home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/lib/python3.10/site-packages/turtlebot4_cmd_py
+[1.618s] copying /home/dong/turtlebot4_ws/build/turtlebot4_cmd_py/build/lib/turtlebot4_cmd_py/turtlebot4_ctl.py -> /home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/lib/python3.10/site-packages/turtlebot4_cmd_py
+[1.618s] byte-compiling /home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/lib/python3.10/site-packages/turtlebot4_cmd_py/__init__.py to __init__.cpython-310.pyc
+[1.618s] byte-compiling /home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/lib/python3.10/site-packages/turtlebot4_cmd_py/turtlebot4_ctl.py to turtlebot4_ctl.cpython-310.pyc
+[1.619s] running install_data
+[1.631s] copying resource/turtlebot4_cmd_py -> /home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/share/ament_index/resource_index/packages
+[1.632s] copying package.xml -> /home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/share/turtlebot4_cmd_py
+[1.632s] running install_egg_info
+[1.644s] Copying ../../build/turtlebot4_cmd_py/turtlebot4_cmd_py.egg-info to /home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/lib/python3.10/site-packages/turtlebot4_cmd_py-0.0.0-py3.10.egg-info
+[1.645s] running install_scripts
+[1.755s] Installing Turtlebot4Ctl script to /home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/lib/turtlebot4_cmd_py
+[1.756s] writing list of installed files to '/home/dong/turtlebot4_ws/build/turtlebot4_cmd_py/install.log'
+[1.805s] Invoked command in '/home/dong/turtlebot4_ws/src/turtlebot4_cmd_py' returned '0': PYTHONPATH=/home/dong/turtlebot4_ws/build/turtlebot4_cmd_py/prefix_override:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot4_cmd_py build --build-base /home/dong/turtlebot4_ws/build/turtlebot4_cmd_py/build install --record /home/dong/turtlebot4_ws/build/turtlebot4_cmd_py/install.log --single-version-externally-managed

@@ -1,0 +1,33 @@
+[0.194s] Invoking command in '/home/dong/turtlebot4-ws/build/minibot_gazebo': CMAKE_PREFIX_PATH=/home/dong/turtlebot4-ws/install/minibot_description:/home/dong/turtlebot4-ws/install/turtlebot4_setup:/home/dong/turtlebot4-ws/install/minibot_navigation2:/home/dong/turtlebot4-ws/install/minibot_controllers:/home/dong/turtlebot4-ws/install/minibot_interfaces:/home/dong/turtlebot4-ws/install/minibot_hardware_interface:/home/dong/turtlebot4-ws/install/minibot_bringup:/home/dong/turtlebot4-ws/install/minibot_gazebo:/home/dong/turtlebot4-ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4-ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4-ws/build/minibot_gazebo -- -j8 -l8
+[0.367s] Invoked command in '/home/dong/turtlebot4-ws/build/minibot_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/dong/turtlebot4-ws/install/minibot_description:/home/dong/turtlebot4-ws/install/turtlebot4_setup:/home/dong/turtlebot4-ws/install/minibot_navigation2:/home/dong/turtlebot4-ws/install/minibot_controllers:/home/dong/turtlebot4-ws/install/minibot_interfaces:/home/dong/turtlebot4-ws/install/minibot_hardware_interface:/home/dong/turtlebot4-ws/install/minibot_bringup:/home/dong/turtlebot4-ws/install/minibot_gazebo:/home/dong/turtlebot4-ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4-ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4-ws/build/minibot_gazebo -- -j8 -l8
+[0.421s] Invoking command in '/home/dong/turtlebot4-ws/build/minibot_gazebo': CMAKE_PREFIX_PATH=/home/dong/turtlebot4-ws/install/minibot_description:/home/dong/turtlebot4-ws/install/turtlebot4_setup:/home/dong/turtlebot4-ws/install/minibot_navigation2:/home/dong/turtlebot4-ws/install/minibot_controllers:/home/dong/turtlebot4-ws/install/minibot_interfaces:/home/dong/turtlebot4-ws/install/minibot_hardware_interface:/home/dong/turtlebot4-ws/install/minibot_bringup:/home/dong/turtlebot4-ws/install/minibot_gazebo:/home/dong/turtlebot4-ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4-ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4-ws/build/minibot_gazebo
+[0.427s] -- Install configuration: ""
+[0.428s] -- Execute custom install script
+[0.428s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_gazebo/share/minibot_gazebo/launch/bringup_gazebo.launch.py
+[0.428s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_gazebo/share/minibot_gazebo/worlds/empty.world
+[0.429s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_gazebo/share/minibot_gazebo/worlds/simple_building.world
+[0.429s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_gazebo/share/minibot_gazebo/worlds/turtlebot3_world.world
+[0.429s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_gazebo/share/minibot_gazebo/models/.empty
+[0.429s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_gazebo/share/minibot_gazebo/models/simple_building/model.config
+[0.429s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_gazebo/share/minibot_gazebo/models/simple_building/model.sdf
+[0.429s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_gazebo/share/minibot_gazebo/models/turtlebot3_world/meshes/hexagon.dae
+[0.429s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_gazebo/share/minibot_gazebo/models/turtlebot3_world/meshes/wall.dae
+[0.430s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_gazebo/share/minibot_gazebo/models/turtlebot3_world/model-1_4.sdf
+[0.430s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_gazebo/share/minibot_gazebo/models/turtlebot3_world/model.config
+[0.430s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_gazebo/share/minibot_gazebo/models/turtlebot3_world/model.sdf
+[0.430s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_gazebo/share/ament_index/resource_index/package_run_dependencies/minibot_gazebo
+[0.430s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_gazebo/share/ament_index/resource_index/parent_prefix_path/minibot_gazebo
+[0.430s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_gazebo/share/minibot_gazebo/environment/ament_prefix_path.sh
+[0.431s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_gazebo/share/minibot_gazebo/environment/ament_prefix_path.dsv
+[0.431s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_gazebo/share/minibot_gazebo/environment/path.sh
+[0.431s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_gazebo/share/minibot_gazebo/environment/path.dsv
+[0.431s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_gazebo/share/minibot_gazebo/local_setup.bash
+[0.431s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_gazebo/share/minibot_gazebo/local_setup.sh
+[0.431s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_gazebo/share/minibot_gazebo/local_setup.zsh
+[0.432s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_gazebo/share/minibot_gazebo/local_setup.dsv
+[0.432s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_gazebo/share/minibot_gazebo/package.dsv
+[0.443s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_gazebo/share/ament_index/resource_index/packages/minibot_gazebo
+[0.443s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_gazebo/share/minibot_gazebo/cmake/minibot_gazeboConfig.cmake
+[0.443s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_gazebo/share/minibot_gazebo/cmake/minibot_gazeboConfig-version.cmake
+[0.444s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_gazebo/share/minibot_gazebo/package.xml
+[0.500s] Invoked command in '/home/dong/turtlebot4-ws/build/minibot_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/dong/turtlebot4-ws/install/minibot_description:/home/dong/turtlebot4-ws/install/turtlebot4_setup:/home/dong/turtlebot4-ws/install/minibot_navigation2:/home/dong/turtlebot4-ws/install/minibot_controllers:/home/dong/turtlebot4-ws/install/minibot_interfaces:/home/dong/turtlebot4-ws/install/minibot_hardware_interface:/home/dong/turtlebot4-ws/install/minibot_bringup:/home/dong/turtlebot4-ws/install/minibot_gazebo:/home/dong/turtlebot4-ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4-ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4-ws/build/minibot_gazebo

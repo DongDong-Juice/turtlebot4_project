@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/build/teleop_twist_keyboard" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/install/minibot_interfaces/local/lib/python3.10/dist-packages" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/install/teleop_twist_keyboard/lib/python3.10/site-packages" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/install/turtlebot4_setup/local/lib/python3.10/dist-packages" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/turtlebot4_cmd_py" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/install/turtlebot4_cmd_py/lib/python3.10/site-packages" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/turtlebot4_path_planning" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/install/turtlebot4_path_planning/lib/python3.10/site-packages" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

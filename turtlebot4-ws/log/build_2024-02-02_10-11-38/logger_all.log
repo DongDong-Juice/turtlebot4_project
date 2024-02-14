@@ -1,0 +1,774 @@
+[0.906s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.906s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ff0a8666530>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff0a8ad95d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff0a8ad95d0>>)
+[0.967s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.967s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.967s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.967s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.967s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.967s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.967s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dong/turtlebot4_ws'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot) by extension 'ignore'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot) by extension 'ignore_ament_install'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot) by extensions ['colcon_pkg']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot) by extension 'colcon_pkg'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot) by extensions ['colcon_meta']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot) by extension 'colcon_meta'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot) by extensions ['ros']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot) by extension 'ros'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot) by extensions ['cmake', 'python']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot) by extension 'cmake'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot) by extension 'python'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot) by extensions ['python_setup_py']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot) by extension 'python_setup_py'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs) by extension 'ignore'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs) by extension 'ignore_ament_install'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs) by extensions ['colcon_pkg']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs) by extension 'colcon_pkg'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs) by extensions ['colcon_meta']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs) by extension 'colcon_meta'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs) by extensions ['ros']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs) by extension 'ros'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs) by extensions ['cmake', 'python']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs) by extension 'cmake'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs) by extension 'python'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs) by extensions ['python_setup_py']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs) by extension 'python_setup_py'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs/blender) by extensions ['ignore', 'ignore_ament_install']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs/blender) by extension 'ignore'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs/blender) by extension 'ignore_ament_install'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs/blender) by extensions ['colcon_pkg']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs/blender) by extension 'colcon_pkg'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs/blender) by extensions ['colcon_meta']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs/blender) by extension 'colcon_meta'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs/blender) by extensions ['ros']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs/blender) by extension 'ros'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs/blender) by extensions ['cmake', 'python']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs/blender) by extension 'cmake'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs/blender) by extension 'python'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs/blender) by extensions ['python_setup_py']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/docs/blender) by extension 'python_setup_py'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_bringup) by extension 'ignore'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_bringup) by extension 'ignore_ament_install'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_bringup) by extensions ['colcon_pkg']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_bringup) by extension 'colcon_pkg'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_bringup) by extensions ['colcon_meta']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_bringup) by extension 'colcon_meta'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_bringup) by extensions ['ros']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_bringup) by extension 'ros'
+[0.995s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pinklab_minibot_robot/minibot_bringup' with type 'ros.ament_cmake' and name 'minibot_bringup'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_controllers) by extension 'ignore'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_controllers) by extension 'ignore_ament_install'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_controllers) by extensions ['colcon_pkg']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_controllers) by extension 'colcon_pkg'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_controllers) by extensions ['colcon_meta']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_controllers) by extension 'colcon_meta'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_controllers) by extensions ['ros']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_controllers) by extension 'ros'
+[0.996s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pinklab_minibot_robot/minibot_controllers' with type 'ros.ament_cmake' and name 'minibot_controllers'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_description) by extension 'ignore'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_description) by extension 'ignore_ament_install'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_description) by extensions ['colcon_pkg']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_description) by extension 'colcon_pkg'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_description) by extensions ['colcon_meta']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_description) by extension 'colcon_meta'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_description) by extensions ['ros']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_description) by extension 'ros'
+[0.997s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pinklab_minibot_robot/minibot_description' with type 'ros.ament_cmake' and name 'minibot_description'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_gazebo) by extension 'ignore'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_gazebo) by extension 'ignore_ament_install'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_gazebo) by extensions ['colcon_pkg']
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_gazebo) by extension 'colcon_pkg'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_gazebo) by extensions ['colcon_meta']
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_gazebo) by extension 'colcon_meta'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_gazebo) by extensions ['ros']
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_gazebo) by extension 'ros'
+[0.998s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pinklab_minibot_robot/minibot_gazebo' with type 'ros.ament_cmake' and name 'minibot_gazebo'
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_hardware_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_hardware_interface) by extension 'ignore'
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_hardware_interface) by extension 'ignore_ament_install'
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_hardware_interface) by extensions ['colcon_pkg']
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_hardware_interface) by extension 'colcon_pkg'
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_hardware_interface) by extensions ['colcon_meta']
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_hardware_interface) by extension 'colcon_meta'
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_hardware_interface) by extensions ['ros']
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_hardware_interface) by extension 'ros'
+[0.999s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pinklab_minibot_robot/minibot_hardware_interface' with type 'ros.ament_cmake' and name 'minibot_hardware_interface'
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_interfaces) by extension 'ignore'
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_interfaces) by extension 'ignore_ament_install'
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_interfaces) by extensions ['colcon_pkg']
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_interfaces) by extension 'colcon_pkg'
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_interfaces) by extensions ['colcon_meta']
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_interfaces) by extension 'colcon_meta'
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_interfaces) by extensions ['ros']
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_interfaces) by extension 'ros'
+[1.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pinklab_minibot_robot/minibot_interfaces' with type 'ros.ament_cmake' and name 'minibot_interfaces'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_navigation2) by extension 'ignore'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_navigation2) by extension 'ignore_ament_install'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_navigation2) by extensions ['colcon_pkg']
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_navigation2) by extension 'colcon_pkg'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_navigation2) by extensions ['colcon_meta']
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_navigation2) by extension 'colcon_meta'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_navigation2) by extensions ['ros']
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinklab_minibot_robot/minibot_navigation2) by extension 'ros'
+[1.001s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pinklab_minibot_robot/minibot_navigation2' with type 'ros.ament_cmake' and name 'minibot_navigation2'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_teleop_keyboard) by extensions ['ignore', 'ignore_ament_install']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_teleop_keyboard) by extension 'ignore'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_teleop_keyboard) by extension 'ignore_ament_install'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_teleop_keyboard) by extensions ['colcon_pkg']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_teleop_keyboard) by extension 'colcon_pkg'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_teleop_keyboard) by extensions ['colcon_meta']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_teleop_keyboard) by extension 'colcon_meta'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_teleop_keyboard) by extensions ['ros']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_teleop_keyboard) by extension 'ros'
+[1.002s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_teleop_keyboard' with type 'ros.ament_python' and name 'teleop_twist_keyboard'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_cmd_py) by extensions ['ignore', 'ignore_ament_install']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_cmd_py) by extension 'ignore'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_cmd_py) by extension 'ignore_ament_install'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_cmd_py) by extensions ['colcon_pkg']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_cmd_py) by extension 'colcon_pkg'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_cmd_py) by extensions ['colcon_meta']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_cmd_py) by extension 'colcon_meta'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_cmd_py) by extensions ['ros']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_cmd_py) by extension 'ros'
+[1.002s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot4_cmd_py' with type 'ros.ament_python' and name 'turtlebot4_cmd_py'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_setup) by extensions ['ignore', 'ignore_ament_install']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_setup) by extension 'ignore'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_setup) by extension 'ignore_ament_install'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_setup) by extensions ['colcon_pkg']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_setup) by extension 'colcon_pkg'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_setup) by extensions ['colcon_meta']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_setup) by extension 'colcon_meta'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_setup) by extensions ['ros']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_setup) by extension 'ros'
+[1.003s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot4_setup' with type 'ros.ament_cmake' and name 'turtlebot4_setup'
+[1.003s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.003s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.003s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.003s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.003s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.086s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.086s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.112s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/dong/turtlebot4_ws/install
+[1.125s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 506 installed packages in /opt/ros/humble
+[1.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.209s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'teleop_twist_keyboard' is in: /home/dong/turtlebot4_ws/install/teleop_twist_keyboard, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding teleop_twist_keyboard
+
+This may be promoted to an error in a future release of colcon-override-check.
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'minibot_description' build argument 'cmake_args' from command line to 'None'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'minibot_description' build argument 'cmake_target' from command line to 'None'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'minibot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'minibot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'minibot_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'minibot_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'minibot_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'minibot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'minibot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.224s] DEBUG:colcon.colcon_core.verb:Building package 'minibot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dong/turtlebot4_ws/build/minibot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dong/turtlebot4_ws/install/minibot_description', 'merge_install': False, 'path': '/home/dong/turtlebot4_ws/src/pinklab_minibot_robot/minibot_description', 'symlink_install': True, 'test_result_base': None}
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'minibot_hardware_interface' build argument 'cmake_args' from command line to 'None'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'minibot_hardware_interface' build argument 'cmake_target' from command line to 'None'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'minibot_hardware_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'minibot_hardware_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'minibot_hardware_interface' build argument 'cmake_clean_first' from command line to 'False'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'minibot_hardware_interface' build argument 'cmake_force_configure' from command line to 'False'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'minibot_hardware_interface' build argument 'ament_cmake_args' from command line to 'None'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'minibot_hardware_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'minibot_hardware_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.241s] DEBUG:colcon.colcon_core.verb:Building package 'minibot_hardware_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dong/turtlebot4_ws/build/minibot_hardware_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dong/turtlebot4_ws/install/minibot_hardware_interface', 'merge_install': False, 'path': '/home/dong/turtlebot4_ws/src/pinklab_minibot_robot/minibot_hardware_interface', 'symlink_install': True, 'test_result_base': None}
+[1.257s] Level 5:colcon.colcon_core.verb:set package 'minibot_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.257s] Level 5:colcon.colcon_core.verb:set package 'minibot_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.257s] Level 5:colcon.colcon_core.verb:set package 'minibot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.257s] Level 5:colcon.colcon_core.verb:set package 'minibot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.257s] Level 5:colcon.colcon_core.verb:set package 'minibot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.257s] Level 5:colcon.colcon_core.verb:set package 'minibot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.257s] Level 5:colcon.colcon_core.verb:set package 'minibot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.257s] Level 5:colcon.colcon_core.verb:set package 'minibot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.257s] Level 5:colcon.colcon_core.verb:set package 'minibot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.257s] DEBUG:colcon.colcon_core.verb:Building package 'minibot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dong/turtlebot4_ws/build/minibot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dong/turtlebot4_ws/install/minibot_interfaces', 'merge_install': False, 'path': '/home/dong/turtlebot4_ws/src/pinklab_minibot_robot/minibot_interfaces', 'symlink_install': True, 'test_result_base': None}
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'minibot_navigation2' build argument 'cmake_args' from command line to 'None'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'minibot_navigation2' build argument 'cmake_target' from command line to 'None'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'minibot_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'minibot_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'minibot_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'minibot_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'minibot_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'minibot_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'minibot_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.271s] DEBUG:colcon.colcon_core.verb:Building package 'minibot_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dong/turtlebot4_ws/build/minibot_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dong/turtlebot4_ws/install/minibot_navigation2', 'merge_install': False, 'path': '/home/dong/turtlebot4_ws/src/pinklab_minibot_robot/minibot_navigation2', 'symlink_install': True, 'test_result_base': None}
+[1.284s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_args' from command line to 'None'
+[1.284s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_target' from command line to 'None'
+[1.284s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.284s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_clean_cache' from command line to 'False'
+[1.284s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_clean_first' from command line to 'False'
+[1.284s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_force_configure' from command line to 'False'
+[1.284s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'ament_cmake_args' from command line to 'None'
+[1.284s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'catkin_cmake_args' from command line to 'None'
+[1.284s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.284s] DEBUG:colcon.colcon_core.verb:Building package 'teleop_twist_keyboard' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dong/turtlebot4_ws/build/teleop_twist_keyboard', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dong/turtlebot4_ws/install/teleop_twist_keyboard', 'merge_install': False, 'path': '/home/dong/turtlebot4_ws/src/ros2_teleop_keyboard', 'symlink_install': True, 'test_result_base': None}
+[1.297s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_cmd_py' build argument 'cmake_args' from command line to 'None'
+[1.297s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_cmd_py' build argument 'cmake_target' from command line to 'None'
+[1.297s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_cmd_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.297s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_cmd_py' build argument 'cmake_clean_cache' from command line to 'False'
+[1.297s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_cmd_py' build argument 'cmake_clean_first' from command line to 'False'
+[1.297s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_cmd_py' build argument 'cmake_force_configure' from command line to 'False'
+[1.297s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_cmd_py' build argument 'ament_cmake_args' from command line to 'None'
+[1.297s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_cmd_py' build argument 'catkin_cmake_args' from command line to 'None'
+[1.297s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_cmd_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.297s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot4_cmd_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dong/turtlebot4_ws/build/turtlebot4_cmd_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py', 'merge_install': False, 'path': '/home/dong/turtlebot4_ws/src/turtlebot4_cmd_py', 'symlink_install': True, 'test_result_base': None}
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_setup' build argument 'cmake_args' from command line to 'None'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_setup' build argument 'cmake_target' from command line to 'None'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_setup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_setup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_setup' build argument 'cmake_clean_first' from command line to 'False'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_setup' build argument 'cmake_force_configure' from command line to 'False'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_setup' build argument 'ament_cmake_args' from command line to 'None'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_setup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_setup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.310s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot4_setup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dong/turtlebot4_ws/build/turtlebot4_setup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dong/turtlebot4_ws/install/turtlebot4_setup', 'merge_install': False, 'path': '/home/dong/turtlebot4_ws/src/turtlebot4_setup', 'symlink_install': True, 'test_result_base': None}
+[1.322s] Level 5:colcon.colcon_core.verb:set package 'minibot_controllers' build argument 'cmake_args' from command line to 'None'
+[1.322s] Level 5:colcon.colcon_core.verb:set package 'minibot_controllers' build argument 'cmake_target' from command line to 'None'
+[1.322s] Level 5:colcon.colcon_core.verb:set package 'minibot_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.322s] Level 5:colcon.colcon_core.verb:set package 'minibot_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[1.322s] Level 5:colcon.colcon_core.verb:set package 'minibot_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[1.322s] Level 5:colcon.colcon_core.verb:set package 'minibot_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[1.322s] Level 5:colcon.colcon_core.verb:set package 'minibot_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[1.322s] Level 5:colcon.colcon_core.verb:set package 'minibot_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[1.322s] Level 5:colcon.colcon_core.verb:set package 'minibot_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.322s] DEBUG:colcon.colcon_core.verb:Building package 'minibot_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dong/turtlebot4_ws/build/minibot_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dong/turtlebot4_ws/install/minibot_controllers', 'merge_install': False, 'path': '/home/dong/turtlebot4_ws/src/pinklab_minibot_robot/minibot_controllers', 'symlink_install': True, 'test_result_base': None}
+[1.334s] Level 5:colcon.colcon_core.verb:set package 'minibot_gazebo' build argument 'cmake_args' from command line to 'None'
+[1.334s] Level 5:colcon.colcon_core.verb:set package 'minibot_gazebo' build argument 'cmake_target' from command line to 'None'
+[1.334s] Level 5:colcon.colcon_core.verb:set package 'minibot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.334s] Level 5:colcon.colcon_core.verb:set package 'minibot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.334s] Level 5:colcon.colcon_core.verb:set package 'minibot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'minibot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'minibot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'minibot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'minibot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.335s] DEBUG:colcon.colcon_core.verb:Building package 'minibot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dong/turtlebot4_ws/build/minibot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dong/turtlebot4_ws/install/minibot_gazebo', 'merge_install': False, 'path': '/home/dong/turtlebot4_ws/src/pinklab_minibot_robot/minibot_gazebo', 'symlink_install': True, 'test_result_base': None}
+[1.347s] Level 5:colcon.colcon_core.verb:set package 'minibot_bringup' build argument 'cmake_args' from command line to 'None'
+[1.347s] Level 5:colcon.colcon_core.verb:set package 'minibot_bringup' build argument 'cmake_target' from command line to 'None'
+[1.347s] Level 5:colcon.colcon_core.verb:set package 'minibot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.347s] Level 5:colcon.colcon_core.verb:set package 'minibot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.347s] Level 5:colcon.colcon_core.verb:set package 'minibot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.347s] Level 5:colcon.colcon_core.verb:set package 'minibot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.347s] Level 5:colcon.colcon_core.verb:set package 'minibot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.347s] Level 5:colcon.colcon_core.verb:set package 'minibot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.347s] Level 5:colcon.colcon_core.verb:set package 'minibot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.347s] DEBUG:colcon.colcon_core.verb:Building package 'minibot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dong/turtlebot4_ws/build/minibot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dong/turtlebot4_ws/install/minibot_bringup', 'merge_install': False, 'path': '/home/dong/turtlebot4_ws/src/pinklab_minibot_robot/minibot_bringup', 'symlink_install': True, 'test_result_base': None}
+[1.359s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.372s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.372s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dong/turtlebot4_ws/src/pinklab_minibot_robot/minibot_description' with build type 'ament_cmake'
+[1.373s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dong/turtlebot4_ws/src/pinklab_minibot_robot/minibot_description'
+[1.390s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.390s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.390s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.440s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dong/turtlebot4_ws/src/pinklab_minibot_robot/minibot_interfaces' with build type 'ament_cmake'
+[1.441s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dong/turtlebot4_ws/src/pinklab_minibot_robot/minibot_interfaces'
+[1.458s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.458s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.515s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dong/turtlebot4_ws/src/pinklab_minibot_robot/minibot_hardware_interface' with build type 'ament_cmake'
+[1.516s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dong/turtlebot4_ws/src/pinklab_minibot_robot/minibot_hardware_interface'
+[1.535s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.535s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.583s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dong/turtlebot4_ws/src/pinklab_minibot_robot/minibot_navigation2' with build type 'ament_cmake'
+[1.583s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dong/turtlebot4_ws/src/pinklab_minibot_robot/minibot_navigation2'
+[1.603s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.603s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.652s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dong/turtlebot4_ws/src/ros2_teleop_keyboard' with build type 'ament_python'
+[1.652s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_keyboard', 'ament_prefix_path')
+[1.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/ament_prefix_path.ps1'
+[1.671s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/ament_prefix_path.dsv'
+[1.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/ament_prefix_path.sh'
+[1.694s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.694s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.741s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dong/turtlebot4_ws/src/turtlebot4_cmd_py' with build type 'ament_python'
+[1.741s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot4_cmd_py', 'ament_prefix_path')
+[1.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/share/turtlebot4_cmd_py/hook/ament_prefix_path.ps1'
+[1.755s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/share/turtlebot4_cmd_py/hook/ament_prefix_path.dsv'
+[1.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/share/turtlebot4_cmd_py/hook/ament_prefix_path.sh'
+[1.773s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.773s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.828s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dong/turtlebot4_ws/src/turtlebot4_setup' with build type 'ament_cmake'
+[1.829s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dong/turtlebot4_ws/src/turtlebot4_setup'
+[1.846s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.847s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dong/turtlebot4_ws/build/minibot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/minibot_description -- -j8 -l8
+[1.918s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dong/turtlebot4_ws/build/minibot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/minibot_interfaces -- -j8 -l8
+[1.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dong/turtlebot4_ws/build/minibot_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/minibot_hardware_interface -- -j8 -l8
+[1.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dong/turtlebot4_ws/build/minibot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/minibot_navigation2 -- -j8 -l8
+[2.212s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'teleop_twist_keyboard' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[2.212s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'teleop_twist_keyboard' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[2.212s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dong/turtlebot4_ws/src/ros2_teleop_keyboard'
+[2.230s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.230s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.484s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dong/turtlebot4_ws/src/turtlebot4_cmd_py'
+[2.497s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.498s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dong/turtlebot4_ws/build/minibot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/minibot_description -- -j8 -l8
+[2.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dong/turtlebot4_ws/build/turtlebot4_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/turtlebot4_setup -- -j8 -l8
+[2.559s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dong/turtlebot4_ws/build/minibot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/minibot_navigation2 -- -j8 -l8
+[2.560s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dong/turtlebot4_ws/build/minibot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/minibot_interfaces -- -j8 -l8
+[2.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dong/turtlebot4_ws/build/minibot_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/minibot_hardware_interface -- -j8 -l8
+[2.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dong/turtlebot4_ws/build/minibot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4_ws/build/minibot_description
+[2.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dong/turtlebot4_ws/build/minibot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4_ws/build/minibot_navigation2
+[2.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dong/turtlebot4_ws/build/minibot_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4_ws/build/minibot_hardware_interface
+[2.650s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot_description)
+[2.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dong/turtlebot4_ws/build/minibot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4_ws/build/minibot_description
+[2.687s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_description' for CMake module files
+[2.688s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_description' for CMake config files
+[2.688s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_description', 'cmake_prefix_path')
+[2.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_description/share/minibot_description/hook/cmake_prefix_path.ps1'
+[2.729s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/install/minibot_description/share/minibot_description/hook/cmake_prefix_path.dsv'
+[2.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_description/share/minibot_description/hook/cmake_prefix_path.sh'
+[2.731s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_description/bin'
+[2.731s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_description/lib/pkgconfig/minibot_description.pc'
+[2.732s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_description/lib/python3.10/site-packages'
+[2.732s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_description/bin'
+[2.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_description/share/minibot_description/package.ps1'
+[2.766s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dong/turtlebot4_ws/install/minibot_description/share/minibot_description/package.dsv'
+[2.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_description/share/minibot_description/package.sh'
+[2.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_description/share/minibot_description/package.bash'
+[2.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_description/share/minibot_description/package.zsh'
+[2.771s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dong/turtlebot4_ws/install/minibot_description/share/colcon-core/packages/minibot_description)
+[2.773s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot_navigation2)
+[2.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dong/turtlebot4_ws/build/minibot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4_ws/build/minibot_navigation2
+[2.819s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_navigation2' for CMake module files
+[2.820s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_navigation2' for CMake config files
+[2.821s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_navigation2', 'cmake_prefix_path')
+[2.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/hook/cmake_prefix_path.ps1'
+[2.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/hook/cmake_prefix_path.dsv'
+[2.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/hook/cmake_prefix_path.sh'
+[2.843s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_navigation2/bin'
+[2.843s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_navigation2/lib/pkgconfig/minibot_navigation2.pc'
+[2.843s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_navigation2/lib/python3.10/site-packages'
+[2.844s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_navigation2/bin'
+[2.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/package.ps1'
+[2.865s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/package.dsv'
+[2.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/package.sh'
+[2.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/package.bash'
+[2.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/package.zsh'
+[2.866s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dong/turtlebot4_ws/install/minibot_navigation2/share/colcon-core/packages/minibot_navigation2)
+[2.871s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot_hardware_interface)
+[2.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dong/turtlebot4_ws/build/minibot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4_ws/build/minibot_interfaces
+[2.872s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dong/turtlebot4_ws/build/minibot_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4_ws/build/minibot_hardware_interface
+[2.904s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_hardware_interface' for CMake module files
+[2.905s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_hardware_interface' for CMake config files
+[2.905s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_hardware_interface', 'cmake_prefix_path')
+[2.936s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/hook/cmake_prefix_path.ps1'
+[2.937s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/hook/cmake_prefix_path.dsv'
+[2.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/hook/cmake_prefix_path.sh'
+[2.938s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/lib'
+[2.938s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_hardware_interface', 'ld_library_path_lib')
+[2.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/hook/ld_library_path_lib.ps1'
+[2.977s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/hook/ld_library_path_lib.dsv'
+[2.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/hook/ld_library_path_lib.sh'
+[2.978s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/bin'
+[2.979s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/lib/pkgconfig/minibot_hardware_interface.pc'
+[2.979s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/lib/python3.10/site-packages'
+[2.980s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/bin'
+[3.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/package.ps1'
+[3.021s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/package.dsv'
+[3.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/package.sh'
+[3.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/package.bash'
+[3.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/package.zsh'
+[3.022s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/colcon-core/packages/minibot_hardware_interface)
+[3.067s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot_description)
+[3.088s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_description' for CMake module files
+[3.089s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_description' for CMake config files
+[3.089s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_description', 'cmake_prefix_path')
+[3.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_description/share/minibot_description/hook/cmake_prefix_path.ps1'
+[3.110s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/install/minibot_description/share/minibot_description/hook/cmake_prefix_path.dsv'
+[3.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_description/share/minibot_description/hook/cmake_prefix_path.sh'
+[3.112s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_description/bin'
+[3.112s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_description/lib/pkgconfig/minibot_description.pc'
+[3.112s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_description/lib/python3.10/site-packages'
+[3.112s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_description/bin'
+[3.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_description/share/minibot_description/package.ps1'
+[3.134s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dong/turtlebot4_ws/install/minibot_description/share/minibot_description/package.dsv'
+[3.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_description/share/minibot_description/package.sh'
+[3.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_description/share/minibot_description/package.bash'
+[3.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_description/share/minibot_description/package.zsh'
+[3.136s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dong/turtlebot4_ws/install/minibot_description/share/colcon-core/packages/minibot_description)
+[3.137s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dong/turtlebot4_ws/src/pinklab_minibot_robot/minibot_gazebo' with build type 'ament_cmake'
+[3.137s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dong/turtlebot4_ws/src/pinklab_minibot_robot/minibot_gazebo'
+[3.161s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.161s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.261s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot_navigation2)
+[3.281s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_navigation2' for CMake module files
+[3.281s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_navigation2' for CMake config files
+[3.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_navigation2', 'cmake_prefix_path')
+[3.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/hook/cmake_prefix_path.ps1'
+[3.301s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/hook/cmake_prefix_path.dsv'
+[3.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/hook/cmake_prefix_path.sh'
+[3.302s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_navigation2/bin'
+[3.302s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_navigation2/lib/pkgconfig/minibot_navigation2.pc'
+[3.302s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_navigation2/lib/python3.10/site-packages'
+[3.302s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_navigation2/bin'
+[3.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/package.ps1'
+[3.327s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/package.dsv'
+[3.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/package.sh'
+[3.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/package.bash'
+[3.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_navigation2/share/minibot_navigation2/package.zsh'
+[3.329s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dong/turtlebot4_ws/install/minibot_navigation2/share/colcon-core/packages/minibot_navigation2)
+[3.331s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot_interfaces)
+[3.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dong/turtlebot4_ws/build/minibot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4_ws/build/minibot_interfaces
+[3.357s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_interfaces' for CMake module files
+[3.358s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_interfaces' for CMake config files
+[3.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_interfaces', 'cmake_prefix_path')
+[3.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/hook/cmake_prefix_path.ps1'
+[3.379s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/hook/cmake_prefix_path.dsv'
+[3.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/hook/cmake_prefix_path.sh'
+[3.380s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_interfaces/lib'
+[3.380s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_interfaces', 'ld_library_path_lib')
+[3.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/hook/ld_library_path_lib.ps1'
+[3.404s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/hook/ld_library_path_lib.dsv'
+[3.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/hook/ld_library_path_lib.sh'
+[3.405s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_interfaces/bin'
+[3.405s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_interfaces/lib/pkgconfig/minibot_interfaces.pc'
+[3.405s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_interfaces/lib/python3.10/site-packages'
+[3.406s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_interfaces/bin'
+[3.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/package.ps1'
+[3.431s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/package.dsv'
+[3.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/package.sh'
+[3.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/package.bash'
+[3.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/package.zsh'
+[3.432s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dong/turtlebot4_ws/install/minibot_interfaces/share/colcon-core/packages/minibot_interfaces)
+[3.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dong/turtlebot4_ws/build/turtlebot4_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/turtlebot4_setup -- -j8 -l8
+[3.475s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot_hardware_interface)
+[3.514s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_hardware_interface' for CMake module files
+[3.515s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_hardware_interface' for CMake config files
+[3.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_hardware_interface', 'cmake_prefix_path')
+[3.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/hook/cmake_prefix_path.ps1'
+[3.546s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/hook/cmake_prefix_path.dsv'
+[3.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/hook/cmake_prefix_path.sh'
+[3.548s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/lib'
+[3.548s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_hardware_interface', 'ld_library_path_lib')
+[3.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/hook/ld_library_path_lib.ps1'
+[3.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/hook/ld_library_path_lib.dsv'
+[3.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/hook/ld_library_path_lib.sh'
+[3.567s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/bin'
+[3.567s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/lib/pkgconfig/minibot_hardware_interface.pc'
+[3.567s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/lib/python3.10/site-packages'
+[3.567s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/bin'
+[3.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/package.ps1'
+[3.582s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/package.dsv'
+[3.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/package.sh'
+[3.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/package.bash'
+[3.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/minibot_hardware_interface/package.zsh'
+[3.583s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dong/turtlebot4_ws/install/minibot_hardware_interface/share/colcon-core/packages/minibot_hardware_interface)
+[3.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dong/turtlebot4_ws/build/minibot_gazebo': CMAKE_PREFIX_PATH=/home/dong/turtlebot4_ws/install/minibot_description:/home/dong/turtlebot4_ws/install/turtlebot4_setup:/home/dong/turtlebot4_ws/install/minibot_navigation2:/home/dong/turtlebot4_ws/install/minibot_controllers:/home/dong/turtlebot4_ws/install/minibot_interfaces:/home/dong/turtlebot4_ws/install/minibot_hardware_interface:/home/dong/turtlebot4_ws/install/minibot_bringup:/home/dong/turtlebot4_ws/install/minibot_gazebo:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/minibot_gazebo -- -j8 -l8
+[3.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dong/turtlebot4_ws/build/turtlebot4_cmd_py': PYTHONPATH=/home/dong/turtlebot4_ws/build/turtlebot4_cmd_py/prefix_override:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/dong/turtlebot4_ws/build/turtlebot4_cmd_py/build --no-deps install_data
+[3.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dong/turtlebot4_ws/build/teleop_twist_keyboard': PYTHONPATH=/home/dong/turtlebot4_ws/build/teleop_twist_keyboard/prefix_override:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/dong/turtlebot4_ws/build/teleop_twist_keyboard/build --no-deps
+[3.638s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot_interfaces)
+[3.665s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_interfaces' for CMake module files
+[3.666s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_interfaces' for CMake config files
+[3.666s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_interfaces', 'cmake_prefix_path')
+[3.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/hook/cmake_prefix_path.ps1'
+[3.687s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/hook/cmake_prefix_path.dsv'
+[3.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/hook/cmake_prefix_path.sh'
+[3.688s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_interfaces/lib'
+[3.688s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_interfaces', 'ld_library_path_lib')
+[3.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/hook/ld_library_path_lib.ps1'
+[3.715s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/hook/ld_library_path_lib.dsv'
+[3.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/hook/ld_library_path_lib.sh'
+[3.716s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_interfaces/bin'
+[3.716s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_interfaces/lib/pkgconfig/minibot_interfaces.pc'
+[3.716s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_interfaces/lib/python3.10/site-packages'
+[3.717s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_interfaces/bin'
+[3.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/package.ps1'
+[3.743s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/package.dsv'
+[3.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/package.sh'
+[3.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/package.bash'
+[3.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/package.zsh'
+[3.746s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dong/turtlebot4_ws/install/minibot_interfaces/share/colcon-core/packages/minibot_interfaces)
+[3.749s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dong/turtlebot4_ws/src/pinklab_minibot_robot/minibot_controllers' with build type 'ament_cmake'
+[3.749s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dong/turtlebot4_ws/src/pinklab_minibot_robot/minibot_controllers'
+[3.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dong/turtlebot4_ws/build/turtlebot4_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4_ws/build/turtlebot4_setup
+[3.789s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.789s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.875s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot4_setup)
+[3.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dong/turtlebot4_ws/build/minibot_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/dong/turtlebot4_ws/install/minibot_description:/home/dong/turtlebot4_ws/install/turtlebot4_setup:/home/dong/turtlebot4_ws/install/minibot_navigation2:/home/dong/turtlebot4_ws/install/minibot_controllers:/home/dong/turtlebot4_ws/install/minibot_interfaces:/home/dong/turtlebot4_ws/install/minibot_hardware_interface:/home/dong/turtlebot4_ws/install/minibot_bringup:/home/dong/turtlebot4_ws/install/minibot_gazebo:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/minibot_gazebo -- -j8 -l8
+[3.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dong/turtlebot4_ws/build/turtlebot4_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4_ws/build/turtlebot4_setup
+[3.915s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/turtlebot4_setup' for CMake module files
+[3.916s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/turtlebot4_setup' for CMake config files
+[3.917s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot4_setup', 'cmake_prefix_path')
+[3.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/hook/cmake_prefix_path.ps1'
+[3.940s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/hook/cmake_prefix_path.dsv'
+[3.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/hook/cmake_prefix_path.sh'
+[3.941s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/turtlebot4_setup/lib'
+[3.941s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/turtlebot4_setup/bin'
+[3.941s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/turtlebot4_setup/lib/pkgconfig/turtlebot4_setup.pc'
+[3.941s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/turtlebot4_setup/lib/python3.10/site-packages'
+[3.941s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/turtlebot4_setup/bin'
+[3.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/package.ps1'
+[3.961s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/package.dsv'
+[3.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/package.sh'
+[3.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/package.bash'
+[3.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/package.zsh'
+[3.962s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dong/turtlebot4_ws/install/turtlebot4_setup/share/colcon-core/packages/turtlebot4_setup)
+[3.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dong/turtlebot4_ws/build/minibot_gazebo': CMAKE_PREFIX_PATH=/home/dong/turtlebot4_ws/install/minibot_description:/home/dong/turtlebot4_ws/install/turtlebot4_setup:/home/dong/turtlebot4_ws/install/minibot_navigation2:/home/dong/turtlebot4_ws/install/minibot_controllers:/home/dong/turtlebot4_ws/install/minibot_interfaces:/home/dong/turtlebot4_ws/install/minibot_hardware_interface:/home/dong/turtlebot4_ws/install/minibot_bringup:/home/dong/turtlebot4_ws/install/minibot_gazebo:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4_ws/build/minibot_gazebo
+[3.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dong/turtlebot4_ws/build/minibot_controllers': CMAKE_PREFIX_PATH=/home/dong/turtlebot4_ws/install/minibot_interfaces:/home/dong/turtlebot4_ws/install/turtlebot4_setup:/home/dong/turtlebot4_ws/install/minibot_navigation2:/home/dong/turtlebot4_ws/install/minibot_controllers:/home/dong/turtlebot4_ws/install/minibot_hardware_interface:/home/dong/turtlebot4_ws/install/minibot_bringup:/home/dong/turtlebot4_ws/install/minibot_gazebo:/home/dong/turtlebot4_ws/install/minibot_description:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble LD_LIBRARY_PATH=/home/dong/turtlebot4_ws/install/minibot_interfaces/lib:/home/dong/turtlebot4_ws/install/minibot_controllers/lib:/home/dong/turtlebot4_ws/install/minibot_hardware_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/minibot_controllers -- -j8 -l8
+[4.035s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot4_setup)
+[4.072s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/turtlebot4_setup' for CMake module files
+[4.073s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/turtlebot4_setup' for CMake config files
+[4.073s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot4_setup', 'cmake_prefix_path')
+[4.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/hook/cmake_prefix_path.ps1'
+[4.109s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/hook/cmake_prefix_path.dsv'
+[4.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/hook/cmake_prefix_path.sh'
+[4.111s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/turtlebot4_setup/lib'
+[4.111s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/turtlebot4_setup/bin'
+[4.111s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/turtlebot4_setup/lib/pkgconfig/turtlebot4_setup.pc'
+[4.111s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/turtlebot4_setup/lib/python3.10/site-packages'
+[4.112s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/turtlebot4_setup/bin'
+[4.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/package.ps1'
+[4.145s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/package.dsv'
+[4.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/package.sh'
+[4.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/package.bash'
+[4.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/package.zsh'
+[4.149s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dong/turtlebot4_ws/install/turtlebot4_setup/share/colcon-core/packages/turtlebot4_setup)
+[4.150s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot_gazebo)
+[4.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dong/turtlebot4_ws/build/minibot_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/dong/turtlebot4_ws/install/minibot_description:/home/dong/turtlebot4_ws/install/turtlebot4_setup:/home/dong/turtlebot4_ws/install/minibot_navigation2:/home/dong/turtlebot4_ws/install/minibot_controllers:/home/dong/turtlebot4_ws/install/minibot_interfaces:/home/dong/turtlebot4_ws/install/minibot_hardware_interface:/home/dong/turtlebot4_ws/install/minibot_bringup:/home/dong/turtlebot4_ws/install/minibot_gazebo:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4_ws/build/minibot_gazebo
+[4.177s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_gazebo' for CMake module files
+[4.177s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_gazebo' for CMake config files
+[4.178s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_gazebo', 'cmake_prefix_path')
+[4.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_gazebo/share/minibot_gazebo/hook/cmake_prefix_path.ps1'
+[4.204s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/install/minibot_gazebo/share/minibot_gazebo/hook/cmake_prefix_path.dsv'
+[4.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_gazebo/share/minibot_gazebo/hook/cmake_prefix_path.sh'
+[4.205s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_gazebo/bin'
+[4.205s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_gazebo/lib/pkgconfig/minibot_gazebo.pc'
+[4.206s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_gazebo/lib/python3.10/site-packages'
+[4.206s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_gazebo/bin'
+[4.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_gazebo/share/minibot_gazebo/package.ps1'
+[4.232s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dong/turtlebot4_ws/install/minibot_gazebo/share/minibot_gazebo/package.dsv'
+[4.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_gazebo/share/minibot_gazebo/package.sh'
+[4.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_gazebo/share/minibot_gazebo/package.bash'
+[4.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_gazebo/share/minibot_gazebo/package.zsh'
+[4.234s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dong/turtlebot4_ws/install/minibot_gazebo/share/colcon-core/packages/minibot_gazebo)
+[4.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dong/turtlebot4_ws/build/minibot_controllers' returned '0': CMAKE_PREFIX_PATH=/home/dong/turtlebot4_ws/install/minibot_interfaces:/home/dong/turtlebot4_ws/install/turtlebot4_setup:/home/dong/turtlebot4_ws/install/minibot_navigation2:/home/dong/turtlebot4_ws/install/minibot_controllers:/home/dong/turtlebot4_ws/install/minibot_hardware_interface:/home/dong/turtlebot4_ws/install/minibot_bringup:/home/dong/turtlebot4_ws/install/minibot_gazebo:/home/dong/turtlebot4_ws/install/minibot_description:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble LD_LIBRARY_PATH=/home/dong/turtlebot4_ws/install/minibot_interfaces/lib:/home/dong/turtlebot4_ws/install/minibot_controllers/lib:/home/dong/turtlebot4_ws/install/minibot_hardware_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/minibot_controllers -- -j8 -l8
+[4.284s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot_gazebo)
+[4.304s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_gazebo' for CMake module files
+[4.304s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_gazebo' for CMake config files
+[4.305s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_gazebo', 'cmake_prefix_path')
+[4.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_gazebo/share/minibot_gazebo/hook/cmake_prefix_path.ps1'
+[4.329s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/install/minibot_gazebo/share/minibot_gazebo/hook/cmake_prefix_path.dsv'
+[4.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_gazebo/share/minibot_gazebo/hook/cmake_prefix_path.sh'
+[4.330s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_gazebo/bin'
+[4.330s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_gazebo/lib/pkgconfig/minibot_gazebo.pc'
+[4.330s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_gazebo/lib/python3.10/site-packages'
+[4.330s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_gazebo/bin'
+[4.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_gazebo/share/minibot_gazebo/package.ps1'
+[4.352s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dong/turtlebot4_ws/install/minibot_gazebo/share/minibot_gazebo/package.dsv'
+[4.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_gazebo/share/minibot_gazebo/package.sh'
+[4.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_gazebo/share/minibot_gazebo/package.bash'
+[4.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_gazebo/share/minibot_gazebo/package.zsh'
+[4.354s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dong/turtlebot4_ws/install/minibot_gazebo/share/colcon-core/packages/minibot_gazebo)
+[4.354s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dong/turtlebot4_ws/src/pinklab_minibot_robot/minibot_bringup' with build type 'ament_cmake'
+[4.355s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dong/turtlebot4_ws/src/pinklab_minibot_robot/minibot_bringup'
+[4.378s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.378s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dong/turtlebot4_ws/build/minibot_controllers': CMAKE_PREFIX_PATH=/home/dong/turtlebot4_ws/install/minibot_interfaces:/home/dong/turtlebot4_ws/install/turtlebot4_setup:/home/dong/turtlebot4_ws/install/minibot_navigation2:/home/dong/turtlebot4_ws/install/minibot_controllers:/home/dong/turtlebot4_ws/install/minibot_hardware_interface:/home/dong/turtlebot4_ws/install/minibot_bringup:/home/dong/turtlebot4_ws/install/minibot_gazebo:/home/dong/turtlebot4_ws/install/minibot_description:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble LD_LIBRARY_PATH=/home/dong/turtlebot4_ws/install/minibot_interfaces/lib:/home/dong/turtlebot4_ws/install/minibot_controllers/lib:/home/dong/turtlebot4_ws/install/minibot_hardware_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/dong/turtlebot4_ws/build/minibot_controllers
+[4.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dong/turtlebot4_ws/build/minibot_bringup': CMAKE_PREFIX_PATH=/home/dong/turtlebot4_ws/install/minibot_gazebo:/home/dong/turtlebot4_ws/install/minibot_description:/home/dong/turtlebot4_ws/install/turtlebot4_setup:/home/dong/turtlebot4_ws/install/minibot_navigation2:/home/dong/turtlebot4_ws/install/minibot_controllers:/home/dong/turtlebot4_ws/install/minibot_interfaces:/home/dong/turtlebot4_ws/install/minibot_hardware_interface:/home/dong/turtlebot4_ws/install/minibot_bringup:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/minibot_bringup -- -j8 -l8
+[4.492s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot_controllers)
+[4.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dong/turtlebot4_ws/build/minibot_controllers' returned '0': CMAKE_PREFIX_PATH=/home/dong/turtlebot4_ws/install/minibot_interfaces:/home/dong/turtlebot4_ws/install/turtlebot4_setup:/home/dong/turtlebot4_ws/install/minibot_navigation2:/home/dong/turtlebot4_ws/install/minibot_controllers:/home/dong/turtlebot4_ws/install/minibot_hardware_interface:/home/dong/turtlebot4_ws/install/minibot_bringup:/home/dong/turtlebot4_ws/install/minibot_gazebo:/home/dong/turtlebot4_ws/install/minibot_description:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble LD_LIBRARY_PATH=/home/dong/turtlebot4_ws/install/minibot_interfaces/lib:/home/dong/turtlebot4_ws/install/minibot_controllers/lib:/home/dong/turtlebot4_ws/install/minibot_hardware_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/dong/turtlebot4_ws/build/minibot_controllers
+[4.518s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_controllers' for CMake module files
+[4.519s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_controllers' for CMake config files
+[4.519s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_controllers', 'cmake_prefix_path')
+[4.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_controllers/share/minibot_controllers/hook/cmake_prefix_path.ps1'
+[4.546s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/install/minibot_controllers/share/minibot_controllers/hook/cmake_prefix_path.dsv'
+[4.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_controllers/share/minibot_controllers/hook/cmake_prefix_path.sh'
+[4.547s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_controllers/lib'
+[4.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_controllers', 'ld_library_path_lib')
+[4.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_controllers/share/minibot_controllers/hook/ld_library_path_lib.ps1'
+[4.568s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/install/minibot_controllers/share/minibot_controllers/hook/ld_library_path_lib.dsv'
+[4.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_controllers/share/minibot_controllers/hook/ld_library_path_lib.sh'
+[4.568s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_controllers/bin'
+[4.568s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_controllers/lib/pkgconfig/minibot_controllers.pc'
+[4.569s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_controllers/lib/python3.10/site-packages'
+[4.569s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_controllers/bin'
+[4.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_controllers/share/minibot_controllers/package.ps1'
+[4.583s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dong/turtlebot4_ws/install/minibot_controllers/share/minibot_controllers/package.dsv'
+[4.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_controllers/share/minibot_controllers/package.sh'
+[4.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_controllers/share/minibot_controllers/package.bash'
+[4.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_controllers/share/minibot_controllers/package.zsh'
+[4.585s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dong/turtlebot4_ws/install/minibot_controllers/share/colcon-core/packages/minibot_controllers)
+[4.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dong/turtlebot4_ws/build/minibot_bringup' returned '0': CMAKE_PREFIX_PATH=/home/dong/turtlebot4_ws/install/minibot_gazebo:/home/dong/turtlebot4_ws/install/minibot_description:/home/dong/turtlebot4_ws/install/turtlebot4_setup:/home/dong/turtlebot4_ws/install/minibot_navigation2:/home/dong/turtlebot4_ws/install/minibot_controllers:/home/dong/turtlebot4_ws/install/minibot_interfaces:/home/dong/turtlebot4_ws/install/minibot_hardware_interface:/home/dong/turtlebot4_ws/install/minibot_bringup:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/minibot_bringup -- -j8 -l8
+[4.589s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_keyboard', 'pythonpath_develop')
+[4.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dong/turtlebot4_ws/build/teleop_twist_keyboard' returned '0': PYTHONPATH=/home/dong/turtlebot4_ws/build/teleop_twist_keyboard/prefix_override:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/dong/turtlebot4_ws/build/teleop_twist_keyboard/build --no-deps
+[4.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/build/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/pythonpath_develop.ps1'
+[4.612s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/build/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/pythonpath_develop.dsv'
+[4.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/build/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/pythonpath_develop.sh'
+[4.631s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/teleop_twist_keyboard' for CMake module files
+[4.632s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/teleop_twist_keyboard' for CMake config files
+[4.632s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/lib'
+[4.632s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/bin'
+[4.632s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_keyboard', 'path')
+[4.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/path.ps1'
+[4.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/path.dsv'
+[4.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/path.sh'
+[4.649s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/lib/pkgconfig/teleop_twist_keyboard.pc'
+[4.649s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages'
+[4.649s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_keyboard', 'pythonpath')
+[4.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/pythonpath.ps1'
+[4.663s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/pythonpath.dsv'
+[4.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/pythonpath.sh'
+[4.663s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/bin'
+[4.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_keyboard', 'pythonscriptspath')
+[4.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/pythonscriptspath.ps1'
+[4.677s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/pythonscriptspath.dsv'
+[4.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/pythonscriptspath.sh'
+[4.677s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_twist_keyboard)
+[4.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/package.ps1'
+[4.692s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/package.dsv'
+[4.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/package.sh'
+[4.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/package.bash'
+[4.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/package.zsh'
+[4.693s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dong/turtlebot4_ws/install/teleop_twist_keyboard/share/colcon-core/packages/teleop_twist_keyboard)
+[4.693s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot4_cmd_py', 'pythonpath_develop')
+[4.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dong/turtlebot4_ws/build/turtlebot4_cmd_py' returned '0': PYTHONPATH=/home/dong/turtlebot4_ws/build/turtlebot4_cmd_py/prefix_override:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/dong/turtlebot4_ws/build/turtlebot4_cmd_py/build --no-deps install_data
+[4.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/build/turtlebot4_cmd_py/share/turtlebot4_cmd_py/hook/pythonpath_develop.ps1'
+[4.712s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/build/turtlebot4_cmd_py/share/turtlebot4_cmd_py/hook/pythonpath_develop.dsv'
+[4.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/build/turtlebot4_cmd_py/share/turtlebot4_cmd_py/hook/pythonpath_develop.sh'
+[4.730s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py' for CMake module files
+[4.731s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py' for CMake config files
+[4.731s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/lib'
+[4.731s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/bin'
+[4.732s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/lib/pkgconfig/turtlebot4_cmd_py.pc'
+[4.732s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/lib/python3.10/site-packages'
+[4.732s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot4_cmd_py', 'pythonpath')
+[4.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/share/turtlebot4_cmd_py/hook/pythonpath.ps1'
+[4.749s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/share/turtlebot4_cmd_py/hook/pythonpath.dsv'
+[4.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/share/turtlebot4_cmd_py/hook/pythonpath.sh'
+[4.750s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/bin'
+[4.750s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot4_cmd_py)
+[4.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/share/turtlebot4_cmd_py/package.ps1'
+[4.767s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/share/turtlebot4_cmd_py/package.dsv'
+[4.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/share/turtlebot4_cmd_py/package.sh'
+[4.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/share/turtlebot4_cmd_py/package.bash'
+[4.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/share/turtlebot4_cmd_py/package.zsh'
+[4.768s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py/share/colcon-core/packages/turtlebot4_cmd_py)
+[4.788s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot_controllers)
+[4.806s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_controllers' for CMake module files
+[4.806s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_controllers' for CMake config files
+[4.807s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_controllers', 'cmake_prefix_path')
+[4.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_controllers/share/minibot_controllers/hook/cmake_prefix_path.ps1'
+[4.825s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/install/minibot_controllers/share/minibot_controllers/hook/cmake_prefix_path.dsv'
+[4.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_controllers/share/minibot_controllers/hook/cmake_prefix_path.sh'
+[4.826s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_controllers/lib'
+[4.826s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_controllers', 'ld_library_path_lib')
+[4.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_controllers/share/minibot_controllers/hook/ld_library_path_lib.ps1'
+[4.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/install/minibot_controllers/share/minibot_controllers/hook/ld_library_path_lib.dsv'
+[4.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_controllers/share/minibot_controllers/hook/ld_library_path_lib.sh'
+[4.843s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_controllers/bin'
+[4.843s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_controllers/lib/pkgconfig/minibot_controllers.pc'
+[4.843s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_controllers/lib/python3.10/site-packages'
+[4.844s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_controllers/bin'
+[4.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_controllers/share/minibot_controllers/package.ps1'
+[4.858s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dong/turtlebot4_ws/install/minibot_controllers/share/minibot_controllers/package.dsv'
+[4.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_controllers/share/minibot_controllers/package.sh'
+[4.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_controllers/share/minibot_controllers/package.bash'
+[4.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_controllers/share/minibot_controllers/package.zsh'
+[4.859s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dong/turtlebot4_ws/install/minibot_controllers/share/colcon-core/packages/minibot_controllers)
+[4.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dong/turtlebot4_ws/build/minibot_bringup': CMAKE_PREFIX_PATH=/home/dong/turtlebot4_ws/install/minibot_gazebo:/home/dong/turtlebot4_ws/install/minibot_description:/home/dong/turtlebot4_ws/install/turtlebot4_setup:/home/dong/turtlebot4_ws/install/minibot_navigation2:/home/dong/turtlebot4_ws/install/minibot_controllers:/home/dong/turtlebot4_ws/install/minibot_interfaces:/home/dong/turtlebot4_ws/install/minibot_hardware_interface:/home/dong/turtlebot4_ws/install/minibot_bringup:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4_ws/build/minibot_bringup
+[4.887s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot_bringup)
+[4.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dong/turtlebot4_ws/build/minibot_bringup' returned '0': CMAKE_PREFIX_PATH=/home/dong/turtlebot4_ws/install/minibot_gazebo:/home/dong/turtlebot4_ws/install/minibot_description:/home/dong/turtlebot4_ws/install/turtlebot4_setup:/home/dong/turtlebot4_ws/install/minibot_navigation2:/home/dong/turtlebot4_ws/install/minibot_controllers:/home/dong/turtlebot4_ws/install/minibot_interfaces:/home/dong/turtlebot4_ws/install/minibot_hardware_interface:/home/dong/turtlebot4_ws/install/minibot_bringup:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4_ws/build/minibot_bringup
+[4.907s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_bringup' for CMake module files
+[4.908s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_bringup' for CMake config files
+[4.908s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_bringup', 'cmake_prefix_path')
+[4.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_bringup/share/minibot_bringup/hook/cmake_prefix_path.ps1'
+[4.924s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/install/minibot_bringup/share/minibot_bringup/hook/cmake_prefix_path.dsv'
+[4.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_bringup/share/minibot_bringup/hook/cmake_prefix_path.sh'
+[4.925s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_bringup/bin'
+[4.925s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_bringup/lib/pkgconfig/minibot_bringup.pc'
+[4.925s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_bringup/lib/python3.10/site-packages'
+[4.925s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_bringup/bin'
+[4.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_bringup/share/minibot_bringup/package.ps1'
+[4.939s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dong/turtlebot4_ws/install/minibot_bringup/share/minibot_bringup/package.dsv'
+[4.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_bringup/share/minibot_bringup/package.sh'
+[4.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_bringup/share/minibot_bringup/package.bash'
+[4.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_bringup/share/minibot_bringup/package.zsh'
+[4.941s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dong/turtlebot4_ws/install/minibot_bringup/share/colcon-core/packages/minibot_bringup)
+[4.989s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minibot_bringup)
+[5.003s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_bringup' for CMake module files
+[5.004s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_bringup' for CMake config files
+[5.004s] Level 1:colcon.colcon_core.shell:create_environment_hook('minibot_bringup', 'cmake_prefix_path')
+[5.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_bringup/share/minibot_bringup/hook/cmake_prefix_path.ps1'
+[5.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dong/turtlebot4_ws/install/minibot_bringup/share/minibot_bringup/hook/cmake_prefix_path.dsv'
+[5.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dong/turtlebot4_ws/install/minibot_bringup/share/minibot_bringup/hook/cmake_prefix_path.sh'
+[5.021s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_bringup/bin'
+[5.022s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_bringup/lib/pkgconfig/minibot_bringup.pc'
+[5.022s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_bringup/lib/python3.10/site-packages'
+[5.022s] Level 1:colcon.colcon_core.environment:checking '/home/dong/turtlebot4_ws/install/minibot_bringup/bin'
+[5.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_bringup/share/minibot_bringup/package.ps1'
+[5.038s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dong/turtlebot4_ws/install/minibot_bringup/share/minibot_bringup/package.dsv'
+[5.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_bringup/share/minibot_bringup/package.sh'
+[5.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_bringup/share/minibot_bringup/package.bash'
+[5.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/dong/turtlebot4_ws/install/minibot_bringup/share/minibot_bringup/package.zsh'
+[5.040s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dong/turtlebot4_ws/install/minibot_bringup/share/colcon-core/packages/minibot_bringup)
+[5.040s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.040s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.040s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.040s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.066s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.066s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.066s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.095s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.117s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dong/turtlebot4_ws/install/local_setup.ps1'
+[5.118s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dong/turtlebot4_ws/install/_local_setup_util_ps1.py'
+[5.121s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dong/turtlebot4_ws/install/setup.ps1'
+[5.140s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dong/turtlebot4_ws/install/local_setup.sh'
+[5.142s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dong/turtlebot4_ws/install/_local_setup_util_sh.py'
+[5.142s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dong/turtlebot4_ws/install/setup.sh'
+[5.163s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dong/turtlebot4_ws/install/local_setup.bash'
+[5.164s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dong/turtlebot4_ws/install/setup.bash'
+[5.184s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dong/turtlebot4_ws/install/local_setup.zsh'
+[5.185s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dong/turtlebot4_ws/install/setup.zsh'

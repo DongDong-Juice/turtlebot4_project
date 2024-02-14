@@ -1,0 +1,227 @@
+[0.321s] Invoking command in '/home/dong/turtlebot4_ws/build/minibot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake /home/dong/turtlebot4_ws/src/pinklab_minibot_robot/minibot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dong/turtlebot4_ws/install/minibot_interfaces
+[0.820s] -- The C compiler identification is GNU 11.4.0
+[0.820s] -- The CXX compiler identification is GNU 11.4.0
+[0.822s] -- Detecting C compiler ABI info
+[0.822s] -- Detecting C compiler ABI info - done
+[0.822s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.822s] -- Detecting C compile features
+[0.823s] -- Detecting C compile features - done
+[0.824s] -- Detecting CXX compiler ABI info
+[0.824s] -- Detecting CXX compiler ABI info - done
+[0.825s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.825s] -- Detecting CXX compile features
+[0.825s] -- Detecting CXX compile features - done
+[0.825s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.108s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.198s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.244s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[1.304s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.313s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.328s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.353s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.381s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.474s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.818s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.270s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.434s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.465s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.468s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.499s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.500s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.500s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.500s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.526s] -- Found PythonExtra: .so  
+[2.582s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.613s] -- Added test 'lint_cmake' to check CMake code style
+[2.614s] -- Added test 'xmllint' to check XML markup files
+[2.618s] -- Configuring done
+[2.658s] -- Generating done
+[2.661s] -- Build files have been written to: /home/dong/turtlebot4_ws/build/minibot_interfaces
+[2.669s] Invoked command in '/home/dong/turtlebot4_ws/build/minibot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake /home/dong/turtlebot4_ws/src/pinklab_minibot_robot/minibot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dong/turtlebot4_ws/install/minibot_interfaces
+[2.670s] Invoking command in '/home/dong/turtlebot4_ws/build/minibot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/minibot_interfaces -- -j8 -l8
+[2.703s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.708s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.718s] [  5%] Built target ament_cmake_python_symlink_minibot_interfaces
+[2.965s] [  5%] Built target minibot_interfaces__cpp
+[2.970s] running egg_info
+[2.971s] creating minibot_interfaces.egg-info
+[2.976s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.976s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.986s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.996s] writing minibot_interfaces.egg-info/PKG-INFO
+[2.996s] writing dependency_links to minibot_interfaces.egg-info/dependency_links.txt
+[2.997s] writing top-level names to minibot_interfaces.egg-info/top_level.txt
+[2.997s] writing manifest file 'minibot_interfaces.egg-info/SOURCES.txt'
+[3.070s] reading manifest file 'minibot_interfaces.egg-info/SOURCES.txt'
+[3.072s] writing manifest file 'minibot_interfaces.egg-info/SOURCES.txt'
+[3.111s] [ 12%] Built target ament_cmake_python_build_minibot_interfaces_egg
+[3.154s] [ 17%] [32mBuilding C object CMakeFiles/minibot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/minibot_interfaces/msg/detail/robot_state__functions.c.o[0m
+[3.154s] [ 17%] [32mBuilding C object CMakeFiles/minibot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/minibot_interfaces/msg/detail/lamp_command__functions.c.o[0m
+[3.222s] [ 20%] [32m[1mLinking C shared library libminibot_interfaces__rosidl_generator_c.so[0m
+[3.263s] [ 20%] Built target minibot_interfaces__rosidl_generator_c
+[3.275s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.276s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.284s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.297s] [ 30%] [32mBuilding CXX object CMakeFiles/minibot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/minibot_interfaces/msg/lamp_command__type_support.cpp.o[0m
+[3.297s] [ 33%] [32mBuilding CXX object CMakeFiles/minibot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/minibot_interfaces/msg/robot_state__type_support.cpp.o[0m
+[3.365s] [ 35%] [32mBuilding CXX object CMakeFiles/minibot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/minibot_interfaces/msg/detail/lamp_command__type_support.cpp.o[0m
+[3.379s] [ 38%] [32mBuilding CXX object CMakeFiles/minibot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/minibot_interfaces/msg/detail/robot_state__type_support.cpp.o[0m
+[3.383s] [ 41%] [32mBuilding CXX object CMakeFiles/minibot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/minibot_interfaces/msg/detail/dds_fastrtps/lamp_command__type_support.cpp.o[0m
+[3.682s] [ 43%] [32mBuilding CXX object CMakeFiles/minibot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/minibot_interfaces/msg/lamp_command__type_support.cpp.o[0m
+[3.724s] [ 46%] [32mBuilding CXX object CMakeFiles/minibot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/minibot_interfaces/msg/detail/dds_fastrtps/robot_state__type_support.cpp.o[0m
+[3.733s] [ 48%] [32m[1mLinking CXX shared library libminibot_interfaces__rosidl_typesupport_cpp.so[0m
+[3.747s] [ 51%] [32mBuilding CXX object CMakeFiles/minibot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/minibot_interfaces/msg/robot_state__type_support.cpp.o[0m
+[3.826s] [ 53%] [32m[1mLinking CXX shared library libminibot_interfaces__rosidl_typesupport_c.so[0m
+[3.832s] [ 56%] [32mBuilding C object CMakeFiles/minibot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/minibot_interfaces/msg/detail/lamp_command__type_support.c.o[0m
+[3.852s] [ 56%] Built target minibot_interfaces__rosidl_typesupport_cpp
+[3.855s] [ 58%] [32mBuilding C object CMakeFiles/minibot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/minibot_interfaces/msg/detail/robot_state__type_support.c.o[0m
+[3.889s] [ 61%] [32mBuilding CXX object CMakeFiles/minibot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/minibot_interfaces/msg/detail/lamp_command__type_support_c.cpp.o[0m
+[3.889s] [ 61%] Built target minibot_interfaces__rosidl_typesupport_c
+[3.900s] [ 64%] [32mBuilding CXX object CMakeFiles/minibot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/minibot_interfaces/msg/detail/robot_state__type_support_c.cpp.o[0m
+[3.900s] [ 66%] [32m[1mLinking C shared library libminibot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.943s] [ 69%] [32m[1mLinking CXX shared library libminibot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.974s] [ 69%] Built target minibot_interfaces__rosidl_typesupport_introspection_c
+[4.024s] [ 69%] Built target minibot_interfaces__rosidl_typesupport_introspection_cpp
+[4.257s] [ 71%] [32m[1mLinking CXX shared library libminibot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.309s] [ 74%] [32m[1mLinking CXX shared library libminibot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.319s] [ 74%] Built target minibot_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.373s] [ 74%] Built target minibot_interfaces__rosidl_typesupport_fastrtps_c
+[4.387s] [ 74%] Built target minibot_interfaces
+[4.401s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.697s] [ 76%] Built target minibot_interfaces__py
+[4.711s] [ 79%] [32mBuilding C object CMakeFiles/minibot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/minibot_interfaces/msg/_lamp_command_s.c.o[0m
+[4.713s] [ 82%] [32mBuilding C object CMakeFiles/minibot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/minibot_interfaces/msg/_robot_state_s.c.o[0m
+[4.802s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/minibot_interfaces/libminibot_interfaces__rosidl_generator_py.so[0m
+[4.831s] [ 84%] Built target minibot_interfaces__rosidl_generator_py
+[4.847s] [ 87%] [32mBuilding C object CMakeFiles/minibot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/minibot_interfaces/_minibot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.847s] [ 89%] [32mBuilding C object CMakeFiles/minibot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/minibot_interfaces/_minibot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.848s] [ 92%] [32mBuilding C object CMakeFiles/minibot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/minibot_interfaces/_minibot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.930s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/minibot_interfaces/minibot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.958s] [ 94%] Built target minibot_interfaces__rosidl_typesupport_c__pyext
+[4.974s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/minibot_interfaces/minibot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.975s] [100%] [32m[1mLinking C shared library rosidl_generator_py/minibot_interfaces/minibot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.002s] [100%] Built target minibot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.002s] [100%] Built target minibot_interfaces__rosidl_typesupport_introspection_c__pyext
+[5.046s] Invoked command in '/home/dong/turtlebot4_ws/build/minibot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4_ws/build/minibot_interfaces -- -j8 -l8
+[5.120s] Invoking command in '/home/dong/turtlebot4_ws/build/minibot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4_ws/build/minibot_interfaces
+[5.126s] -- Install configuration: ""
+[5.126s] -- Execute custom install script
+[5.126s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/ament_index/resource_index/rosidl_interfaces/minibot_interfaces
+[5.133s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/include/minibot_interfaces/minibot_interfaces/msg/detail/lamp_command__functions.h
+[5.139s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/include/minibot_interfaces/minibot_interfaces/msg/detail/lamp_command__struct.h
+[5.145s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/include/minibot_interfaces/minibot_interfaces/msg/detail/lamp_command__type_support.h
+[5.151s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/include/minibot_interfaces/minibot_interfaces/msg/detail/robot_state__functions.h
+[5.157s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/include/minibot_interfaces/minibot_interfaces/msg/detail/robot_state__struct.h
+[5.163s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/include/minibot_interfaces/minibot_interfaces/msg/detail/robot_state__type_support.h
+[5.169s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/include/minibot_interfaces/minibot_interfaces/msg/lamp_command.h
+[5.175s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/include/minibot_interfaces/minibot_interfaces/msg/robot_state.h
+[5.181s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/include/minibot_interfaces/minibot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.188s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/environment/library_path.sh
+[5.194s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/environment/library_path.dsv
+[5.201s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/include/minibot_interfaces/minibot_interfaces/msg/detail/lamp_command__rosidl_typesupport_fastrtps_c.h
+[5.206s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/include/minibot_interfaces/minibot_interfaces/msg/detail/robot_state__rosidl_typesupport_fastrtps_c.h
+[5.213s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/include/minibot_interfaces/minibot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.219s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/include/minibot_interfaces/minibot_interfaces/msg/detail/lamp_command__builder.hpp
+[5.225s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/include/minibot_interfaces/minibot_interfaces/msg/detail/lamp_command__struct.hpp
+[5.231s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/include/minibot_interfaces/minibot_interfaces/msg/detail/lamp_command__traits.hpp
+[5.238s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/include/minibot_interfaces/minibot_interfaces/msg/detail/robot_state__builder.hpp
+[5.244s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/include/minibot_interfaces/minibot_interfaces/msg/detail/robot_state__struct.hpp
+[5.250s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/include/minibot_interfaces/minibot_interfaces/msg/detail/robot_state__traits.hpp
+[5.256s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/include/minibot_interfaces/minibot_interfaces/msg/lamp_command.hpp
+[5.263s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/include/minibot_interfaces/minibot_interfaces/msg/robot_state.hpp
+[5.270s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/include/minibot_interfaces/minibot_interfaces/msg/detail/lamp_command__rosidl_typesupport_fastrtps_cpp.hpp
+[5.276s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/include/minibot_interfaces/minibot_interfaces/msg/detail/robot_state__rosidl_typesupport_fastrtps_cpp.hpp
+[5.283s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/include/minibot_interfaces/minibot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.289s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/include/minibot_interfaces/minibot_interfaces/msg/detail/lamp_command__rosidl_typesupport_introspection_c.h
+[5.295s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/include/minibot_interfaces/minibot_interfaces/msg/detail/robot_state__rosidl_typesupport_introspection_c.h
+[5.301s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/include/minibot_interfaces/minibot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.308s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/include/minibot_interfaces/minibot_interfaces/msg/detail/lamp_command__rosidl_typesupport_introspection_cpp.hpp
+[5.314s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/include/minibot_interfaces/minibot_interfaces/msg/detail/robot_state__rosidl_typesupport_introspection_cpp.hpp
+[5.320s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/environment/pythonpath.sh
+[5.326s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/environment/pythonpath.dsv
+[5.332s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/local/lib/python3.10/dist-packages/minibot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[5.338s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/local/lib/python3.10/dist-packages/minibot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.344s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/local/lib/python3.10/dist-packages/minibot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.350s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/local/lib/python3.10/dist-packages/minibot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[5.357s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/local/lib/python3.10/dist-packages/minibot_interfaces/__init__.py
+[5.363s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/local/lib/python3.10/dist-packages/minibot_interfaces/_minibot_interfaces_s.ep.rosidl_typesupport_c.c
+[5.369s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/local/lib/python3.10/dist-packages/minibot_interfaces/_minibot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.375s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/local/lib/python3.10/dist-packages/minibot_interfaces/_minibot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.382s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/local/lib/python3.10/dist-packages/minibot_interfaces/libminibot_interfaces__rosidl_generator_py.so
+[5.389s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/local/lib/python3.10/dist-packages/minibot_interfaces/minibot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.395s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/local/lib/python3.10/dist-packages/minibot_interfaces/minibot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.401s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/local/lib/python3.10/dist-packages/minibot_interfaces/minibot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.407s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/local/lib/python3.10/dist-packages/minibot_interfaces/msg/__init__.py
+[5.414s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/local/lib/python3.10/dist-packages/minibot_interfaces/msg/_lamp_command.py
+[5.421s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/local/lib/python3.10/dist-packages/minibot_interfaces/msg/_lamp_command_s.c
+[5.427s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/local/lib/python3.10/dist-packages/minibot_interfaces/msg/_robot_state.py
+[5.434s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/local/lib/python3.10/dist-packages/minibot_interfaces/msg/_robot_state_s.c
+[5.441s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_interfaces/local/lib/python3.10/dist-packages/minibot_interfaces/minibot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.441s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_interfaces/local/lib/python3.10/dist-packages/minibot_interfaces/minibot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.441s] -- Up-to-date symlink: /home/dong/turtlebot4_ws/install/minibot_interfaces/local/lib/python3.10/dist-packages/minibot_interfaces/minibot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.441s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/msg/LampCommand.idl
+[5.448s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/msg/RobotState.idl
+[5.454s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/msg/LampCommand.msg
+[5.461s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/msg/RobotState.msg
+[5.467s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/ament_index/resource_index/package_run_dependencies/minibot_interfaces
+[5.474s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/ament_index/resource_index/parent_prefix_path/minibot_interfaces
+[5.481s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/environment/ament_prefix_path.sh
+[5.487s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/environment/ament_prefix_path.dsv
+[5.494s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/environment/path.sh
+[5.500s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/environment/path.dsv
+[5.507s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/local_setup.bash
+[5.513s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/local_setup.sh
+[5.519s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/local_setup.zsh
+[5.525s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/local_setup.dsv
+[5.531s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/package.dsv
+[5.538s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/ament_index/resource_index/packages/minibot_interfaces
+[5.544s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.550s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.557s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.563s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.570s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.576s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.582s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.589s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/cmake/minibot_interfacesConfig.cmake
+[5.595s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/cmake/minibot_interfacesConfig-version.cmake
+[5.601s] -- Symlinking: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/package.xml
+[5.608s] -- Installing: /home/dong/turtlebot4_ws/install/minibot_interfaces/lib/libminibot_interfaces__rosidl_generator_c.so
+[5.608s] -- Set runtime path of "/home/dong/turtlebot4_ws/install/minibot_interfaces/lib/libminibot_interfaces__rosidl_generator_c.so" to ""
+[5.608s] -- Installing: /home/dong/turtlebot4_ws/install/minibot_interfaces/lib/libminibot_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.608s] -- Set runtime path of "/home/dong/turtlebot4_ws/install/minibot_interfaces/lib/libminibot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.608s] -- Installing: /home/dong/turtlebot4_ws/install/minibot_interfaces/lib/libminibot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.608s] -- Set runtime path of "/home/dong/turtlebot4_ws/install/minibot_interfaces/lib/libminibot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.608s] -- Installing: /home/dong/turtlebot4_ws/install/minibot_interfaces/lib/libminibot_interfaces__rosidl_typesupport_introspection_c.so
+[5.608s] -- Set runtime path of "/home/dong/turtlebot4_ws/install/minibot_interfaces/lib/libminibot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.608s] -- Installing: /home/dong/turtlebot4_ws/install/minibot_interfaces/lib/libminibot_interfaces__rosidl_typesupport_c.so
+[5.609s] -- Set runtime path of "/home/dong/turtlebot4_ws/install/minibot_interfaces/lib/libminibot_interfaces__rosidl_typesupport_c.so" to ""
+[5.609s] -- Installing: /home/dong/turtlebot4_ws/install/minibot_interfaces/lib/libminibot_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.609s] -- Set runtime path of "/home/dong/turtlebot4_ws/install/minibot_interfaces/lib/libminibot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.609s] -- Installing: /home/dong/turtlebot4_ws/install/minibot_interfaces/lib/libminibot_interfaces__rosidl_typesupport_cpp.so
+[5.609s] -- Set runtime path of "/home/dong/turtlebot4_ws/install/minibot_interfaces/lib/libminibot_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.636s] Listing '/home/dong/turtlebot4_ws/install/minibot_interfaces/local/lib/python3.10/dist-packages/minibot_interfaces'...
+[5.636s] Compiling '/home/dong/turtlebot4_ws/install/minibot_interfaces/local/lib/python3.10/dist-packages/minibot_interfaces/__init__.py'...
+[5.636s] Listing '/home/dong/turtlebot4_ws/install/minibot_interfaces/local/lib/python3.10/dist-packages/minibot_interfaces/msg'...
+[5.636s] Compiling '/home/dong/turtlebot4_ws/install/minibot_interfaces/local/lib/python3.10/dist-packages/minibot_interfaces/msg/__init__.py'...
+[5.636s] Compiling '/home/dong/turtlebot4_ws/install/minibot_interfaces/local/lib/python3.10/dist-packages/minibot_interfaces/msg/_lamp_command.py'...
+[5.636s] Compiling '/home/dong/turtlebot4_ws/install/minibot_interfaces/local/lib/python3.10/dist-packages/minibot_interfaces/msg/_robot_state.py'...
+[5.640s] -- Installing: /home/dong/turtlebot4_ws/install/minibot_interfaces/lib/libminibot_interfaces__rosidl_generator_py.so
+[5.640s] -- Set runtime path of "/home/dong/turtlebot4_ws/install/minibot_interfaces/lib/libminibot_interfaces__rosidl_generator_py.so" to ""
+[5.640s] -- Installing: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/cmake/export_minibot_interfaces__rosidl_generator_cExport.cmake
+[5.640s] -- Installing: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/cmake/export_minibot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.640s] -- Installing: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/cmake/export_minibot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.640s] -- Installing: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/cmake/export_minibot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.640s] -- Installing: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/cmake/export_minibot_interfaces__rosidl_generator_cppExport.cmake
+[5.640s] -- Installing: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/cmake/export_minibot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.640s] -- Installing: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/cmake/export_minibot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.640s] -- Installing: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/cmake/minibot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.640s] -- Installing: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/cmake/minibot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.640s] -- Installing: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/cmake/minibot_interfaces__rosidl_typesupport_cExport.cmake
+[5.641s] -- Installing: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/cmake/minibot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.641s] -- Installing: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/cmake/minibot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.641s] -- Installing: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/cmake/minibot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.641s] -- Installing: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/cmake/minibot_interfaces__rosidl_typesupport_cppExport.cmake
+[5.641s] -- Installing: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/cmake/minibot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.641s] -- Installing: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/cmake/export_minibot_interfaces__rosidl_generator_pyExport.cmake
+[5.641s] -- Installing: /home/dong/turtlebot4_ws/install/minibot_interfaces/share/minibot_interfaces/cmake/export_minibot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.643s] Invoked command in '/home/dong/turtlebot4_ws/build/minibot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4_ws/build/minibot_interfaces

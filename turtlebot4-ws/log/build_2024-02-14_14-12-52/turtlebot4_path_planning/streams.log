@@ -1,0 +1,46 @@
+[0.894s] Invoking command in '/home/dong/turtlebot4-ws/build/turtlebot4_path_planning': PYTHONPATH=/home/dong/turtlebot4-ws/build/turtlebot4_path_planning/prefix_override:/home/dong/turtlebot4-ws/install/turtlebot4_path_planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/dong/turtlebot4-ws/build/turtlebot4_path_planning/build --no-deps install_data
+[1.177s] running develop
+[1.178s] /home/dong/.local/lib/python3.10/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.178s] !!
+[1.178s] 
+[1.178s]         ********************************************************************************
+[1.178s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.178s]         Instead, use pypa/build, pypa/installer or other
+[1.178s]         standards-based tools.
+[1.178s] 
+[1.178s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.178s]         ********************************************************************************
+[1.178s] 
+[1.179s] !!
+[1.179s]   easy_install.initialize_options(self)
+[1.209s] /home/dong/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.209s] !!
+[1.209s] 
+[1.209s]         ********************************************************************************
+[1.209s]         Please avoid running ``setup.py`` directly.
+[1.209s]         Instead, use pypa/build, pypa/installer or other
+[1.210s]         standards-based tools.
+[1.210s] 
+[1.210s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.210s]         ********************************************************************************
+[1.210s] 
+[1.210s] !!
+[1.210s]   self.initialize_options()
+[1.372s] running egg_info
+[1.385s] writing turtlebot4_path_planning.egg-info/PKG-INFO
+[1.386s] writing dependency_links to turtlebot4_path_planning.egg-info/dependency_links.txt
+[1.386s] writing entry points to turtlebot4_path_planning.egg-info/entry_points.txt
+[1.386s] writing requirements to turtlebot4_path_planning.egg-info/requires.txt
+[1.386s] writing top-level names to turtlebot4_path_planning.egg-info/top_level.txt
+[1.416s] reading manifest file 'turtlebot4_path_planning.egg-info/SOURCES.txt'
+[1.417s] writing manifest file 'turtlebot4_path_planning.egg-info/SOURCES.txt'
+[1.430s] running build_ext
+[1.430s] Creating /home/dong/turtlebot4-ws/install/turtlebot4_path_planning/lib/python3.10/site-packages/turtlebot4_path_planning.egg-link (link to .)
+[1.431s] Installing turtlebot4_global_path script to /home/dong/turtlebot4-ws/install/turtlebot4_path_planning/lib/turtlebot4_path_planning
+[1.431s] Installing turtlebot4_pub_path script to /home/dong/turtlebot4-ws/install/turtlebot4_path_planning/lib/turtlebot4_path_planning
+[1.431s] 
+[1.431s] Installed /home/dong/turtlebot4-ws/build/turtlebot4_path_planning
+[1.431s] running install_data
+[1.431s] copying resource/turtlebot4_path_planning -> /home/dong/turtlebot4-ws/install/turtlebot4_path_planning/share/ament_index/resource_index/packages
+[1.431s] copying package.xml -> /home/dong/turtlebot4-ws/install/turtlebot4_path_planning/share/turtlebot4_path_planning
+[1.548s] Invoked command in '/home/dong/turtlebot4-ws/build/turtlebot4_path_planning' returned '0': PYTHONPATH=/home/dong/turtlebot4-ws/build/turtlebot4_path_planning/prefix_override:/home/dong/turtlebot4-ws/install/turtlebot4_path_planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/dong/turtlebot4-ws/build/turtlebot4_path_planning/build --no-deps install_data

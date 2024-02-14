@@ -1,0 +1,5 @@
+[0.483s] Invoking command in '/home/dong/turtlebot4-ws/build/turtlebot4_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4-ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4-ws/install/teleop_twist_keyboard:/home/dong/turtlebot4_ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4_ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4-ws/build/turtlebot4_setup -- -j8 -l8
+[0.491s] [0mCMake Error: The current CMakeCache.txt directory /home/dong/turtlebot4-ws/build/turtlebot4_setup/CMakeCache.txt is different than the directory /home/dong/turtlebot4_ws/build/turtlebot4_setup where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.502s] [0mCMake Error: The source directory "/home/dong/turtlebot4_ws/src/turtlebot4_setup" does not exist.
+[0.502s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.504s] gmake: *** [Makefile:254: cmake_check_build_system] 오류 1

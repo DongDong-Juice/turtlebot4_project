@@ -1,0 +1,241 @@
+[0.000000] (-) TimerEvent: {}
+[0.000357] (minibot_description) JobQueued: {'identifier': 'minibot_description', 'dependencies': OrderedDict()}
+[0.000591] (minibot_hardware_interface) JobQueued: {'identifier': 'minibot_hardware_interface', 'dependencies': OrderedDict()}
+[0.000653] (minibot_interfaces) JobQueued: {'identifier': 'minibot_interfaces', 'dependencies': OrderedDict()}
+[0.000666] (minibot_navigation2) JobQueued: {'identifier': 'minibot_navigation2', 'dependencies': OrderedDict()}
+[0.000677] (turtlebot4_cmd_py) JobQueued: {'identifier': 'turtlebot4_cmd_py', 'dependencies': OrderedDict()}
+[0.000687] (minibot_controllers) JobQueued: {'identifier': 'minibot_controllers', 'dependencies': OrderedDict([('minibot_interfaces', '/home/dong/turtlebot4-ws/install/minibot_interfaces')])}
+[0.000699] (minibot_gazebo) JobQueued: {'identifier': 'minibot_gazebo', 'dependencies': OrderedDict([('minibot_description', '/home/dong/turtlebot4-ws/install/minibot_description')])}
+[0.000710] (minibot_bringup) JobQueued: {'identifier': 'minibot_bringup', 'dependencies': OrderedDict([('minibot_description', '/home/dong/turtlebot4-ws/install/minibot_description'), ('minibot_gazebo', '/home/dong/turtlebot4-ws/install/minibot_gazebo')])}
+[0.000723] (minibot_description) JobStarted: {'identifier': 'minibot_description'}
+[0.031875] (minibot_interfaces) JobStarted: {'identifier': 'minibot_interfaces'}
+[0.063403] (minibot_hardware_interface) JobStarted: {'identifier': 'minibot_hardware_interface'}
+[0.095679] (minibot_navigation2) JobStarted: {'identifier': 'minibot_navigation2'}
+[0.099792] (-) TimerEvent: {}
+[0.127446] (turtlebot4_cmd_py) JobStarted: {'identifier': 'turtlebot4_cmd_py'}
+[0.169996] (minibot_description) JobProgress: {'identifier': 'minibot_description', 'progress': 'cmake'}
+[0.170125] (minibot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/dong/turtlebot4-ws/src/pinklab_minibot_robot/minibot_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/dong/turtlebot4-ws/install/minibot_description'], 'cwd': '/home/dong/turtlebot4-ws/build/minibot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_AU:en'), ('USER', 'dong'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dong'), ('OLDPWD', '/home/dong/turtlebot4-ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1577'), ('SYSTEMD_EXEC_PID', '2081'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2584'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dong'), ('JOURNAL_STREAM', '8:31278'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/dong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dong-Vostro-15-5510:@/tmp/.ICE-unix/2042,unix/dong-Vostro-15-5510:/tmp/.ICE-unix/2042'), ('INVOCATION_ID', '50b4f8b0517246dc89d5b52d0f5f0ead'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:cc8c1544-443b-4048-89d6-088547093e3c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dong/turtlebot4-ws/build/minibot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.173602] (minibot_interfaces) JobProgress: {'identifier': 'minibot_interfaces', 'progress': 'cmake'}
+[0.173964] (minibot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/dong/turtlebot4-ws/src/pinklab_minibot_robot/minibot_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/dong/turtlebot4-ws/install/minibot_interfaces'], 'cwd': '/home/dong/turtlebot4-ws/build/minibot_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_AU:en'), ('USER', 'dong'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dong'), ('OLDPWD', '/home/dong/turtlebot4-ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1577'), ('SYSTEMD_EXEC_PID', '2081'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2584'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dong'), ('JOURNAL_STREAM', '8:31278'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/dong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dong-Vostro-15-5510:@/tmp/.ICE-unix/2042,unix/dong-Vostro-15-5510:/tmp/.ICE-unix/2042'), ('INVOCATION_ID', '50b4f8b0517246dc89d5b52d0f5f0ead'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:cc8c1544-443b-4048-89d6-088547093e3c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dong/turtlebot4-ws/build/minibot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.176330] (minibot_hardware_interface) JobProgress: {'identifier': 'minibot_hardware_interface', 'progress': 'cmake'}
+[0.176780] (minibot_hardware_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/dong/turtlebot4-ws/src/pinklab_minibot_robot/minibot_hardware_interface', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/dong/turtlebot4-ws/install/minibot_hardware_interface'], 'cwd': '/home/dong/turtlebot4-ws/build/minibot_hardware_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_AU:en'), ('USER', 'dong'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dong'), ('OLDPWD', '/home/dong/turtlebot4-ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1577'), ('SYSTEMD_EXEC_PID', '2081'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2584'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dong'), ('JOURNAL_STREAM', '8:31278'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/dong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dong-Vostro-15-5510:@/tmp/.ICE-unix/2042,unix/dong-Vostro-15-5510:/tmp/.ICE-unix/2042'), ('INVOCATION_ID', '50b4f8b0517246dc89d5b52d0f5f0ead'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:cc8c1544-443b-4048-89d6-088547093e3c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dong/turtlebot4-ws/build/minibot_hardware_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.179299] (minibot_navigation2) JobProgress: {'identifier': 'minibot_navigation2', 'progress': 'cmake'}
+[0.179335] (minibot_navigation2) Command: {'cmd': ['/usr/bin/cmake', '/home/dong/turtlebot4-ws/src/pinklab_minibot_robot/minibot_navigation2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/dong/turtlebot4-ws/install/minibot_navigation2'], 'cwd': '/home/dong/turtlebot4-ws/build/minibot_navigation2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en_AU:en'), ('USER', 'dong'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dong'), ('OLDPWD', '/home/dong/turtlebot4-ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1577'), ('SYSTEMD_EXEC_PID', '2081'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2584'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dong'), ('JOURNAL_STREAM', '8:31278'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/dong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dong-Vostro-15-5510:@/tmp/.ICE-unix/2042,unix/dong-Vostro-15-5510:/tmp/.ICE-unix/2042'), ('INVOCATION_ID', '50b4f8b0517246dc89d5b52d0f5f0ead'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:cc8c1544-443b-4048-89d6-088547093e3c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dong/turtlebot4-ws/build/minibot_navigation2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.199903] (-) TimerEvent: {}
+[0.211753] (minibot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.214018] (minibot_navigation2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.216689] (minibot_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.218615] (minibot_hardware_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.257489] (minibot_navigation2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.259895] (minibot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.262862] (minibot_navigation2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.265056] (minibot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.269353] (minibot_hardware_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.270533] (minibot_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.276677] (minibot_hardware_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.278137] (minibot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300015] (-) TimerEvent: {}
+[0.322757] (minibot_navigation2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.323256] (minibot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.326905] (minibot_hardware_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.330898] (minibot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.332108] (minibot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.332372] (minibot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.332479] (minibot_navigation2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.332557] (minibot_hardware_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.332740] (minibot_hardware_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.332819] (minibot_navigation2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.332890] (minibot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.333035] (minibot_hardware_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.333254] (minibot_navigation2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.335519] (minibot_hardware_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.336313] (minibot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.336526] (minibot_navigation2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.341293] (minibot_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.341496] (minibot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.342072] (minibot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.344829] (minibot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.397593] (minibot_hardware_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.398401] (minibot_navigation2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.400096] (-) TimerEvent: {}
+[0.403260] (minibot_hardware_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.403484] (minibot_hardware_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.403782] (minibot_hardware_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.403943] (minibot_navigation2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.404166] (minibot_navigation2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.404523] (minibot_navigation2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.405207] (minibot_hardware_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.405953] (minibot_navigation2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.411263] (minibot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.417238] (minibot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.421822] (minibot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.422077] (minibot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.422647] (minibot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.422901] (minibot_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.423118] (minibot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.423464] (minibot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.424839] (minibot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.425010] (minibot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500215] (-) TimerEvent: {}
+[0.600553] (-) TimerEvent: {}
+[0.700894] (-) TimerEvent: {}
+[0.708445] (minibot_hardware_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.712587] (minibot_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.725409] (minibot_navigation2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.761705] (minibot_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.773630] (minibot_hardware_interface) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.777542] (minibot_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.791476] (minibot_navigation2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.800996] (-) TimerEvent: {}
+[0.801707] (minibot_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.805362] (minibot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.807875] (minibot_hardware_interface) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:16 (find_package):\n'}
+[0.808044] (minibot_hardware_interface) StderrLine: {'line': b'  By not providing "Findhardware_interface.cmake" in CMAKE_MODULE_PATH this\n'}
+[0.808091] (minibot_hardware_interface) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[0.808131] (minibot_hardware_interface) StderrLine: {'line': b'  "hardware_interface", but CMake did not find one.\n'}
+[0.808174] (minibot_hardware_interface) StderrLine: {'line': b'\n'}
+[0.808213] (minibot_hardware_interface) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[0.808256] (minibot_hardware_interface) StderrLine: {'line': b'  "hardware_interface" with any of the following names:\n'}
+[0.808294] (minibot_hardware_interface) StderrLine: {'line': b'\n'}
+[0.808331] (minibot_hardware_interface) StderrLine: {'line': b'    hardware_interfaceConfig.cmake\n'}
+[0.808369] (minibot_hardware_interface) StderrLine: {'line': b'    hardware_interface-config.cmake\n'}
+[0.808407] (minibot_hardware_interface) StderrLine: {'line': b'\n'}
+[0.808446] (minibot_hardware_interface) StderrLine: {'line': b'  Add the installation prefix of "hardware_interface" to CMAKE_PREFIX_PATH or\n'}
+[0.808484] (minibot_hardware_interface) StderrLine: {'line': b'  set "hardware_interface_DIR" to a directory containing one of the above\n'}
+[0.808523] (minibot_hardware_interface) StderrLine: {'line': b'  files.  If "hardware_interface" provides a separate development package or\n'}
+[0.808561] (minibot_hardware_interface) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[0.808598] (minibot_hardware_interface) StderrLine: {'line': b'\n'}
+[0.808637] (minibot_hardware_interface) StderrLine: {'line': b'\x1b[0m\n'}
+[0.808675] (minibot_hardware_interface) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.808721] (minibot_hardware_interface) StdoutLine: {'line': b'See also "/home/dong/turtlebot4-ws/build/minibot_hardware_interface/CMakeFiles/CMakeOutput.log".\n'}
+[0.811427] (minibot_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.812878] (minibot_hardware_interface) CommandEnded: {'returncode': 1}
+[0.815644] (minibot_navigation2) StdoutLine: {'line': b'-- Found slam_toolbox: 2.6.8 (/opt/ros/humble/share/slam_toolbox/cmake)\n'}
+[0.817320] (minibot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.828270] (minibot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.854050] (minibot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.856913] (minibot_navigation2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.862668] (minibot_navigation2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.869949] (minibot_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.870806] (minibot_hardware_interface) JobEnded: {'identifier': 'minibot_hardware_interface', 'rc': 1}
+[0.871411] (turtlebot4_cmd_py) JobEnded: {'identifier': 'turtlebot4_cmd_py', 'rc': 'SIGINT'}
+[0.872516] (minibot_navigation2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.889950] (minibot_navigation2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.893706] (minibot_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:10 (find_package):\n'}
+[0.893920] (minibot_description) StderrLine: {'line': b'  By not providing "Findxacro.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[0.893968] (minibot_description) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "xacro", but\n'}
+[0.894009] (minibot_description) StderrLine: {'line': b'  CMake did not find one.\n'}
+[0.894047] (minibot_description) StderrLine: {'line': b'\n'}
+[0.894086] (minibot_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "xacro" with any of\n'}
+[0.894125] (minibot_description) StderrLine: {'line': b'  the following names:\n'}
+[0.894162] (minibot_description) StderrLine: {'line': b'\n'}
+[0.894199] (minibot_description) StderrLine: {'line': b'    xacroConfig.cmake\n'}
+[0.894236] (minibot_description) StderrLine: {'line': b'    xacro-config.cmake\n'}
+[0.894273] (minibot_description) StderrLine: {'line': b'\n'}
+[0.894310] (minibot_description) StderrLine: {'line': b'  Add the installation prefix of "xacro" to CMAKE_PREFIX_PATH or set\n'}
+[0.894347] (minibot_description) StderrLine: {'line': b'  "xacro_DIR" to a directory containing one of the above files.  If "xacro"\n'}
+[0.894384] (minibot_description) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[0.894420] (minibot_description) StderrLine: {'line': b'  installed.\n'}
+[0.894456] (minibot_description) StderrLine: {'line': b'\n'}
+[0.894493] (minibot_description) StderrLine: {'line': b'\x1b[0m\n'}
+[0.894530] (minibot_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.894579] (minibot_description) StdoutLine: {'line': b'See also "/home/dong/turtlebot4-ws/build/minibot_description/CMakeFiles/CMakeOutput.log".\n'}
+[0.897211] (minibot_description) JobEnded: {'identifier': 'minibot_description', 'rc': 'SIGINT'}
+[0.901084] (-) TimerEvent: {}
+[0.912329] (minibot_navigation2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.922779] (minibot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.001199] (-) TimerEvent: {}
+[1.101525] (-) TimerEvent: {}
+[1.130708] (minibot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.201636] (-) TimerEvent: {}
+[1.301893] (-) TimerEvent: {}
+[1.364253] (minibot_navigation2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.365777] (minibot_navigation2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.389527] (minibot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.401999] (-) TimerEvent: {}
+[1.432839] (minibot_navigation2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.451488] (minibot_navigation2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.485357] (minibot_navigation2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.489490] (minibot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.491228] (minibot_navigation2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.502172] (-) TimerEvent: {}
+[1.505475] (minibot_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.506407] (minibot_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.523590] (minibot_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.523733] (minibot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.523776] (minibot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.523940] (minibot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.537789] (minibot_navigation2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.538133] (minibot_navigation2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.539161] (minibot_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.573540] (minibot_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.584051] (minibot_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.584416] (minibot_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.586402] (minibot_navigation2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.587493] (minibot_navigation2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.587668] (minibot_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.602271] (-) TimerEvent: {}
+[1.622275] (minibot_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.625081] (minibot_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/dong/turtlebot4-ws/build/minibot_interfaces\n'}
+[1.631852] (minibot_interfaces) JobEnded: {'identifier': 'minibot_interfaces', 'rc': 'SIGINT'}
+[1.702371] (-) TimerEvent: {}
+[1.802621] (-) TimerEvent: {}
+[1.902955] (-) TimerEvent: {}
+[1.989878] (minibot_navigation2) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.990787] (minibot_navigation2) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.990858] (minibot_navigation2) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.003104] (-) TimerEvent: {}
+[2.066551] (minibot_navigation2) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[2.067281] (minibot_navigation2) StdoutLine: {'line': b'-- Found OGRE\n'}
+[2.067365] (minibot_navigation2) StdoutLine: {'line': b'--   static     : OFF\n'}
+[2.067410] (minibot_navigation2) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[2.067449] (minibot_navigation2) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[2.067489] (minibot_navigation2) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[2.067638] (minibot_navigation2) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[2.067705] (minibot_navigation2) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[2.067742] (minibot_navigation2) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[2.067779] (minibot_navigation2) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[2.067813] (minibot_navigation2) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[2.067857] (minibot_navigation2) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[2.067891] (minibot_navigation2) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[2.067925] (minibot_navigation2) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[2.068286] (minibot_navigation2) StdoutLine: {'line': b'-- Could not find freeimage library\n'}
+[2.079130] (minibot_navigation2) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[2.081925] (minibot_navigation2) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[2.103216] (-) TimerEvent: {}
+[2.137155] (minibot_navigation2) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[2.137296] (minibot_navigation2) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[2.182497] (minibot_navigation2) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[2.182627] (minibot_navigation2) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[2.203401] (-) TimerEvent: {}
+[2.223972] (minibot_navigation2) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[2.224100] (minibot_navigation2) StdoutLine: {'line': b'-- Looking for connect\n'}
+[2.266609] (minibot_navigation2) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[2.266730] (minibot_navigation2) StdoutLine: {'line': b'-- Looking for remove\n'}
+[2.303507] (-) TimerEvent: {}
+[2.308519] (minibot_navigation2) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[2.308642] (minibot_navigation2) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[2.352081] (minibot_navigation2) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[2.352213] (minibot_navigation2) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[2.394760] (minibot_navigation2) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[2.396158] (minibot_navigation2) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[2.396229] (minibot_navigation2) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[2.403657] (-) TimerEvent: {}
+[2.444467] (minibot_navigation2) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[2.503863] (-) TimerEvent: {}
+[2.604154] (-) TimerEvent: {}
+[2.704426] (-) TimerEvent: {}
+[2.769346] (minibot_navigation2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.804604] (-) TimerEvent: {}
+[2.830038] (minibot_navigation2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.830284] (minibot_navigation2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.830520] (minibot_navigation2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.831435] (minibot_navigation2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.832427] (minibot_navigation2) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.836104] (minibot_navigation2) StdoutLine: {'line': b'-- Generating done\n'}
+[2.837369] (minibot_navigation2) StdoutLine: {'line': b'-- Build files have been written to: /home/dong/turtlebot4-ws/build/minibot_navigation2\n'}
+[2.845660] (minibot_navigation2) JobEnded: {'identifier': 'minibot_navigation2', 'rc': 'SIGINT'}
+[2.856248] (minibot_controllers) JobSkipped: {'identifier': 'minibot_controllers'}
+[2.856304] (minibot_gazebo) JobSkipped: {'identifier': 'minibot_gazebo'}
+[2.856318] (minibot_bringup) JobSkipped: {'identifier': 'minibot_bringup'}
+[2.856329] (-) EventReactorShutdown: {}

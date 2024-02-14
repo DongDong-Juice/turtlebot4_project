@@ -1,0 +1,31 @@
+[0.277s] Invoking command in '/home/dong/turtlebot4-ws/build/minibot_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4-ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4-ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4-ws/build/minibot_hardware_interface -- -j8 -l8
+[0.728s] [100%] Built target minibot_hardware_interface
+[0.734s] Invoked command in '/home/dong/turtlebot4-ws/build/minibot_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4-ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4-ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/dong/turtlebot4-ws/build/minibot_hardware_interface -- -j8 -l8
+[0.765s] Invoking command in '/home/dong/turtlebot4-ws/build/minibot_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4-ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4-ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4-ws/build/minibot_hardware_interface
+[0.772s] -- Install configuration: ""
+[0.774s] -- Execute custom install script
+[0.774s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_hardware_interface/share/minibot_hardware_interface//minibot_hardware.xml
+[0.775s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_hardware_interface/lib/libminibot_hardware_interface.so
+[0.775s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_hardware_interface/include/minibot_hardware_interface/minibot_system.hpp
+[0.776s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_hardware_interface/share/minibot_hardware_interface/environment/library_path.sh
+[0.776s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_hardware_interface/share/minibot_hardware_interface/environment/library_path.dsv
+[0.776s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_hardware_interface/share/ament_index/resource_index/package_run_dependencies/minibot_hardware_interface
+[0.776s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_hardware_interface/share/ament_index/resource_index/parent_prefix_path/minibot_hardware_interface
+[0.776s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_hardware_interface/share/minibot_hardware_interface/environment/ament_prefix_path.sh
+[0.777s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_hardware_interface/share/minibot_hardware_interface/environment/ament_prefix_path.dsv
+[0.777s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_hardware_interface/share/minibot_hardware_interface/environment/path.sh
+[0.777s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_hardware_interface/share/minibot_hardware_interface/environment/path.dsv
+[0.777s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_hardware_interface/share/minibot_hardware_interface/local_setup.bash
+[0.777s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_hardware_interface/share/minibot_hardware_interface/local_setup.sh
+[0.778s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_hardware_interface/share/minibot_hardware_interface/local_setup.zsh
+[0.778s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_hardware_interface/share/minibot_hardware_interface/local_setup.dsv
+[0.778s] -- Symlinking: /home/dong/turtlebot4-ws/install/minibot_hardware_interface/share/minibot_hardware_interface/package.dsv
+[0.786s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_hardware_interface/share/ament_index/resource_index/packages/minibot_hardware_interface
+[0.787s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/minibot_hardware_interface
+[0.787s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_hardware_interface/share/minibot_hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.787s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_hardware_interface/share/minibot_hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[0.787s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_hardware_interface/share/minibot_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.787s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_hardware_interface/share/minibot_hardware_interface/cmake/minibot_hardware_interfaceConfig.cmake
+[0.787s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_hardware_interface/share/minibot_hardware_interface/cmake/minibot_hardware_interfaceConfig-version.cmake
+[0.788s] -- Up-to-date symlink: /home/dong/turtlebot4-ws/install/minibot_hardware_interface/share/minibot_hardware_interface/package.xml
+[0.876s] Invoked command in '/home/dong/turtlebot4-ws/build/minibot_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dong/turtlebot4-ws/install/turtlebot4_cmd_py:/home/dong/turtlebot4-ws/install/teleop_twist_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/dong/turtlebot4-ws/build/minibot_hardware_interface

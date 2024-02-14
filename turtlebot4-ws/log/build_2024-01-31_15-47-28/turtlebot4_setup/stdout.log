@@ -1,0 +1,39 @@
+Built target ament_cmake_python_symlink_turtlebot4_setup
+running egg_info
+writing turtlebot4_setup.egg-info/PKG-INFO
+writing dependency_links to turtlebot4_setup.egg-info/dependency_links.txt
+writing top-level names to turtlebot4_setup.egg-info/top_level.txt
+reading manifest file 'turtlebot4_setup.egg-info/SOURCES.txt'
+writing manifest file 'turtlebot4_setup.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_turtlebot4_setup_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/environment/pythonpath.sh
+-- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup-1.0.3-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup-1.0.3-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup-1.0.3-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup-1.0.3-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup/__init__.py
+-- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup/conf.py
+-- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup/menu.py
+-- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup/ros_setup.py
+-- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup/turtlebot4_setup
+-- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup/wifi.py
+-- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/lib/turtlebot4_setup/turtlebot4_setup
+-- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/ament_index/resource_index/package_run_dependencies/turtlebot4_setup
+-- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/ament_index/resource_index/parent_prefix_path/turtlebot4_setup
+-- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/environment/path.sh
+-- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/environment/path.dsv
+-- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/local_setup.bash
+-- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/local_setup.sh
+-- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/local_setup.zsh
+-- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/local_setup.dsv
+-- Symlinking: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/package.dsv
+-- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/ament_index/resource_index/packages/turtlebot4_setup
+-- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/cmake/turtlebot4_setupConfig.cmake
+-- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/cmake/turtlebot4_setupConfig-version.cmake
+-- Up-to-date symlink: /home/dong/turtlebot4_ws/install/turtlebot4_setup/share/turtlebot4_setup/package.xml
+Listing '/home/dong/turtlebot4_ws/install/turtlebot4_setup/local/lib/python3.10/dist-packages/turtlebot4_setup'...

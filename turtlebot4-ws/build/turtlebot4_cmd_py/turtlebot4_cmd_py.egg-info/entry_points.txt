@@ -1,0 +1,7 @@
+[console_scripts]
+Turtlebot4Ctl = turtlebot4_cmd_py.turtlebot4_ctl:main
+pub = turtlebot4_cmd_py.pub:main
+sub = turtlebot4_cmd_py.sub:main
+test = turtlebot4_cmd_py.pross:main
+test1 = turtlebot4_cmd_py.pross1:main
+test2 = turtlebot4_cmd_py.pross2:main
