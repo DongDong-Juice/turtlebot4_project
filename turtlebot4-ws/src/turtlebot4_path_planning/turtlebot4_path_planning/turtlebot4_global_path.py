@@ -1,8 +1,9 @@
 import json
-
+import os
 from geometry_msgs.msg import PoseStamped
 import rclpy
 from rclpy.node import Node
+
 
 class Turtlebot4PathPlanning(Node):
     def __init__(self):
@@ -26,12 +27,13 @@ class Turtlebot4PathPlanning(Node):
 def main(args=None):
     rclpy.init(args=args)
     node = Turtlebot4PathPlanning()
+
     try:
         rclpy.spin(node)
     except KeyboardInterrupt:
         node.get_logger().info('key end')
     finally:
-        with open('/home/dong/turtlebot4-ws/src/turtlebot4_path_planning/path/path.json','w') as f:
+        with open('/home/dong/turtlebot4_project/turtlebot4-ws/src/turtlebot4_path_planning/path/path.json','w') as f:
             json.dump(node.plan,f,indent=4)
         node.destroy_node()
         rclpy.shutdown()
@@ -39,3 +41,5 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
+
+

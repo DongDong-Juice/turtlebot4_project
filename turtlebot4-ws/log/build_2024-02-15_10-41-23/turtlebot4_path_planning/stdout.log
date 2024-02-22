@@ -1,0 +1,36 @@
+running develop
+Removing /home/dong/turtlebot4_project/turtlebot4-ws/install/turtlebot4_path_planning/lib/python3.10/site-packages/turtlebot4_path_planning.egg-link (link to .)
+running egg_info
+writing ../../build/turtlebot4_path_planning/turtlebot4_path_planning.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtlebot4_path_planning/turtlebot4_path_planning.egg-info/dependency_links.txt
+writing entry points to ../../build/turtlebot4_path_planning/turtlebot4_path_planning.egg-info/entry_points.txt
+writing requirements to ../../build/turtlebot4_path_planning/turtlebot4_path_planning.egg-info/requires.txt
+writing top-level names to ../../build/turtlebot4_path_planning/turtlebot4_path_planning.egg-info/top_level.txt
+reading manifest file '../../build/turtlebot4_path_planning/turtlebot4_path_planning.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtlebot4_path_planning/turtlebot4_path_planning.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dong/turtlebot4_project/turtlebot4-ws/build/turtlebot4_path_planning/build
+creating /home/dong/turtlebot4_project/turtlebot4-ws/build/turtlebot4_path_planning/build/lib
+creating /home/dong/turtlebot4_project/turtlebot4-ws/build/turtlebot4_path_planning/build/lib/turtlebot4_path_planning
+copying turtlebot4_path_planning/turtlebot4_pub_path.py -> /home/dong/turtlebot4_project/turtlebot4-ws/build/turtlebot4_path_planning/build/lib/turtlebot4_path_planning
+copying turtlebot4_path_planning/__init__.py -> /home/dong/turtlebot4_project/turtlebot4-ws/build/turtlebot4_path_planning/build/lib/turtlebot4_path_planning
+copying turtlebot4_path_planning/turtlebot4_global_path.py -> /home/dong/turtlebot4_project/turtlebot4-ws/build/turtlebot4_path_planning/build/lib/turtlebot4_path_planning
+running install
+running install_lib
+creating /home/dong/turtlebot4_project/turtlebot4-ws/install/turtlebot4_path_planning/lib/python3.10/site-packages/turtlebot4_path_planning
+copying /home/dong/turtlebot4_project/turtlebot4-ws/build/turtlebot4_path_planning/build/lib/turtlebot4_path_planning/turtlebot4_pub_path.py -> /home/dong/turtlebot4_project/turtlebot4-ws/install/turtlebot4_path_planning/lib/python3.10/site-packages/turtlebot4_path_planning
+copying /home/dong/turtlebot4_project/turtlebot4-ws/build/turtlebot4_path_planning/build/lib/turtlebot4_path_planning/__init__.py -> /home/dong/turtlebot4_project/turtlebot4-ws/install/turtlebot4_path_planning/lib/python3.10/site-packages/turtlebot4_path_planning
+copying /home/dong/turtlebot4_project/turtlebot4-ws/build/turtlebot4_path_planning/build/lib/turtlebot4_path_planning/turtlebot4_global_path.py -> /home/dong/turtlebot4_project/turtlebot4-ws/install/turtlebot4_path_planning/lib/python3.10/site-packages/turtlebot4_path_planning
+byte-compiling /home/dong/turtlebot4_project/turtlebot4-ws/install/turtlebot4_path_planning/lib/python3.10/site-packages/turtlebot4_path_planning/turtlebot4_pub_path.py to turtlebot4_pub_path.cpython-310.pyc
+byte-compiling /home/dong/turtlebot4_project/turtlebot4-ws/install/turtlebot4_path_planning/lib/python3.10/site-packages/turtlebot4_path_planning/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/dong/turtlebot4_project/turtlebot4-ws/install/turtlebot4_path_planning/lib/python3.10/site-packages/turtlebot4_path_planning/turtlebot4_global_path.py to turtlebot4_global_path.cpython-310.pyc
+running install_data
+copying resource/turtlebot4_path_planning -> /home/dong/turtlebot4_project/turtlebot4-ws/install/turtlebot4_path_planning/share/ament_index/resource_index/packages
+copying package.xml -> /home/dong/turtlebot4_project/turtlebot4-ws/install/turtlebot4_path_planning/share/turtlebot4_path_planning
+running install_egg_info
+Copying ../../build/turtlebot4_path_planning/turtlebot4_path_planning.egg-info to /home/dong/turtlebot4_project/turtlebot4-ws/install/turtlebot4_path_planning/lib/python3.10/site-packages/turtlebot4_path_planning-0.0.0-py3.10.egg-info
+running install_scripts
+Installing turtlebot4_global_path script to /home/dong/turtlebot4_project/turtlebot4-ws/install/turtlebot4_path_planning/lib/turtlebot4_path_planning
+Installing turtlebot4_pub_path script to /home/dong/turtlebot4_project/turtlebot4-ws/install/turtlebot4_path_planning/lib/turtlebot4_path_planning
+writing list of installed files to '/home/dong/turtlebot4_project/turtlebot4-ws/build/turtlebot4_path_planning/install.log'
